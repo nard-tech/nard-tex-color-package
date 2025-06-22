@@ -4,9 +4,9 @@ require 'yaml'
 
 class Color
   def initialize(r, g, b)
-    @r = r
-    @g = g
-    @b = b
+    @r = r.to_i
+    @g = g.to_i
+    @b = b.to_i
   end
 
   attr_reader :r, :g, :b
