@@ -22,7 +22,7 @@ class Color
   end
 
   def rgb_01(digit = 3)
-    rgb_01_as_array(digit).map(&:to_s).join(' , ')
+    rgb_01_as_array(digit).map(&:to_s).join(', ')
   end
 
   def rgb_01_as_array(digit = 3)
