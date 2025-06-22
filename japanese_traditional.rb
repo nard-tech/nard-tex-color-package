@@ -69,21 +69,6 @@ class JapaneseTraditionalColor
   PATTERN = /\A% ([\p{Han}\p{hiragana}（）→・\d]+) (\w+) \#[0-9a-f]{6}\, \(r,g,b\)=\((\d+), (\d+), (\d+)\)\n\\definecolor\{\w+\}\{rgb\}\{(\d(?:\.\d{,3})?), (\d(?:\.\d{,3})?), (\d(?:\.\d{,3})?)\}\n?\z/
 
   class << self
-    def parse(content)
-      PATTERN =~ content
-
-      name = Regexp.last_match(1)
-      name_en = Regexp.last_match(2)
-
-      r = Regexp.last_match(3).to_i
-      g = Regexp.last_match(4).to_i
-      b = Regexp.last_match(5).to_i
-
-      rgb_01 = Regexp.last_match(6)
-
-      new(name, name_en, Color.new(r, g, b), rgb_01:)
-    end
-
     def load(h)
       name = h['name']
       name_en = h['name_en']
