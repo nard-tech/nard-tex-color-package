@@ -81,16 +81,14 @@ class JapaneseTraditionalColor
     end
   end
 
-  def initialize(name, name_en, color, rgb_01: nil, note: nil)
+  def initialize(name, name_en, color, note: nil)
     @name = name
     @name_en = name_en
     @color = color
-
-    @rgb_01 = rgb_01
     @note = note
   end
 
-  attr_reader :name, :name_en, :color, :rgb_01, :note
+  attr_reader :name, :name_en, :color, :note
 
   def to_s
     comment = "% #{name} #{name_en} #{color.hex}, (r,g,b)=(#{color})"
