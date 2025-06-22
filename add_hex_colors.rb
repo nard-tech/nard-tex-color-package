@@ -36,6 +36,11 @@ class Color
 
   private
 
+  def rgb_h(string_key: false)
+    h = { r:, g:, b: }
+    string_key ? h.transform_keys(&:to_s) : h
+  end
+
   def r_01(digit = 3)
     color_01(r, digit)
   end
