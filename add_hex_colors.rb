@@ -17,6 +17,11 @@ class Color
     to_a.map(&:to_s).join(', ')
   end
 
+  def to_h(string_key: false)
+    h = { rgb: rgb_h(string_key:), hex: }
+    string_key ? h.transform_keys(&:to_s) : h
+  end
+
   def hex
     '#' + to_a.map { |color| color.to_i.to_s(16).rjust(2, '0') }.join
   end
