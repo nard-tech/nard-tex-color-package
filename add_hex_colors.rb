@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'yaml'
+
 class Color
   def initialize(r, g, b)
     @r = r
@@ -122,6 +124,10 @@ contents = contents.map { |content| JapaneseTraditionalColor.parse(content) }
 raise if contents.all?(&:valid_rgb_01?)
 
 # contents.each { puts _1.to_s }
+
+File.open('japanese_traditional.yml', 'w:utf-8') do |f|
+  f.write YAML.dump(contents.map { |content| content.to_h(string_key: true) })
+end
 
 File.open('japanese_traditional.sty', 'w:utf-8') do |f|
   f.write(contents.map(&:to_s).join("\n"))
