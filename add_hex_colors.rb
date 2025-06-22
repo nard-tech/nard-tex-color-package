@@ -82,7 +82,7 @@ class JapaneseTraditionalColor
 
   def to_s
     <<~TEX
-      % #{color_name} #{color_name_en} (r,g,b) = (#{color})
+      % #{color_name} #{color_name_en} #{color.hex}, (r,g,b)=(#{color})
       \\definecolor{#{color_name_en}}{rgb}{#{color.rgb_01(2)}}
     TEX
   end
