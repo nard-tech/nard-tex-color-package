@@ -54,7 +54,7 @@ class Color
 end
 
 class JapaneseTraditionalColor
-  PATTERN = /\A% ([\p{Han}\p{hiragana}（）→・\d]+) (\w+) \(r,g,b\) = \((\d+), (\d+), (\d+)\)\n\\definecolor\{\w+\}\{rgb\}\{(\d(?:\.\d+)?) , (\d(?:\.\d+)?) , (\d(?:\.\d+)?)\}\n?\z/
+  PATTERN = /\A% ([\p{Han}\p{hiragana}（）→・\d]+) (\w+) \#[0-9a-f]{6}\, \(r,g,b\)=\((\d+), (\d+), (\d+)\)\n\\definecolor\{\w+\}\{rgb\}\{(\d(?:\.\d+)?) , (\d(?:\.\d+)?) , (\d(?:\.\d+)?)\}\n?\z/
 
   class << self
     def parse(content)
@@ -82,7 +82,7 @@ class JapaneseTraditionalColor
 
   def to_s
     <<~TEX
-      % #{color_name} #{color_name_en} (r,g,b) = (#{color})
+      % #{color_name} #{color_name_en} #{color.hex}, (r,g,b)=(#{color})
       \\definecolor{#{color_name_en}}{rgb}{#{color.rgb_01(2)}}
     TEX
   end
