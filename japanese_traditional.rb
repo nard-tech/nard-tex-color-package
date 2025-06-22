@@ -136,20 +136,13 @@ class JapaneseTraditionalColor
   end
 end
 
-contents = File.open('japanese_traditional.sty', 'r:utf-8')
+yaml_string = File.open('japanese_traditional.yml', 'r:utf-8')
                .read
-               .split(/\n{2}/)
+contents = YAML.load(yaml_string)
+japanese_traditional_colors = contents.map { |h| JapaneseTraditionalColor.load(h) }
 
-contents = contents.map { |content| JapaneseTraditionalColor.parse(content) }
-
-raise if contents.all?(&:valid_rgb_01?)
-
-# contents.each { puts _1.to_s }
-
-File.open('japanese_traditional.yml', 'w:utf-8') do |f|
-  f.write YAML.dump(contents.map { |content| content.to_h(string_key: true) })
-end
+# japanese_traditional_colors.each { puts _1.to_s }
 
 File.open('japanese_traditional.sty', 'w:utf-8') do |f|
-  f.write(contents.map(&:to_s).join("\n"))
+  f.write(japanese_traditional_colors.map(&:to_s).join("\n"))
 end
