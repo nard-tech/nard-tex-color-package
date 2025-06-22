@@ -85,14 +85,16 @@ class JapaneseTraditionalColor
     end
   end
 
-  def initialize(name, name_en, color, rgb_01: nil)
+  def initialize(name, name_en, color, rgb_01: nil, note: nil)
     @name = name
     @name_en = name_en
     @color = color
+
     @rgb_01 = rgb_01
+    @note = note
   end
 
-  attr_reader :name, :name_en, :color, :rgb_01
+  attr_reader :name, :name_en, :color, :rgb_01, :note
 
   def to_s
     <<~TEX
