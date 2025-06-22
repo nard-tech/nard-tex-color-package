@@ -97,6 +97,11 @@ class JapaneseTraditionalColor
     TEX
   end
 
+  def to_h(string_key: false)
+    h = { name:, name_en:, color: color.to_h(string_key:) }
+    string_key ? h.transform_keys(&:to_s) : h
+  end
+
   def valid_rgb_01?
     rgb_01.split(/,/).map(&:to_f) == color.rgb_01_as_array(1)
   end
