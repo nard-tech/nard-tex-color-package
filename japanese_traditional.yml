@@ -1,0 +1,3713 @@
+---
+- name: 桜色
+  name_en: sakurairo
+  color:
+    rgb:
+      r: 254
+      g: 244
+      b: 244
+    hex: "#fef4f4"
+- name: 薄桜
+  name_en: usuzakura
+  color:
+    rgb:
+      r: 253
+      g: 239
+      b: 242
+    hex: "#fdeff2"
+- name: 桜鼠
+  name_en: sakuranezu
+  color:
+    rgb:
+      r: 233
+      g: 223
+      b: 229
+    hex: "#e9dfe5"
+- name: 鴇鼠
+  name_en: tokinezu
+  color:
+    rgb:
+      r: 228
+      g: 210
+      b: 216
+    hex: "#e4d2d8"
+- name: 虹色
+  name_en: nijiiro
+  color:
+    rgb:
+      r: 246
+      g: 191
+      b: 188
+    hex: "#f6bfbc"
+- name: 珊瑚色
+  name_en: sangoiro
+  color:
+    rgb:
+      r: 245
+      g: 177
+      b: 170
+    hex: "#f5b1aa"
+- name: 一斤染
+  name_en: ikkonzome
+  color:
+    rgb:
+      r: 245
+      g: 177
+      b: 153
+    hex: "#f5b199"
+- name: 宍色
+  name_en: shishiiro
+  color:
+    rgb:
+      r: 239
+      g: 171
+      b: 147
+    hex: "#efab93"
+- name: 紅梅色
+  name_en: koubaiiro
+  color:
+    rgb:
+      r: 242
+      g: 160
+      b: 161
+    hex: "#f2a0a1"
+- name: 薄紅
+  name_en: usubeni
+  color:
+    rgb:
+      r: 240
+      g: 144
+      b: 141
+    hex: "#f0908d"
+- name: 甚三紅
+  name_en: jinzamomi
+  color:
+    rgb:
+      r: 238
+      g: 130
+      b: 124
+    hex: "#ee827c"
+- name: 桃色
+  name_en: momoiro
+  color:
+    rgb:
+      r: 240
+      g: 145
+      b: 153
+    hex: "#f09199"
+- name: 鴇色
+  name_en: tokiiro
+  color:
+    rgb:
+      r: 244
+      g: 179
+      b: 194
+    hex: "#f4b3c2"
+- name: 撫子色
+  name_en: nadeshikoiro
+  color:
+    rgb:
+      r: 238
+      g: 187
+      b: 203
+    hex: "#eebbcb"
+- name: 灰梅
+  name_en: haiume
+  color:
+    rgb:
+      r: 232
+      g: 211
+      b: 199
+    hex: "#e8d3c7"
+- name: 灰桜
+  name_en: haizakura
+  color:
+    rgb:
+      r: 232
+      g: 211
+      b: 209
+    hex: "#e8d3d1"
+- name: 淡紅藤
+  name_en: awabenifuji
+  color:
+    rgb:
+      r: 230
+      g: 205
+      b: 227
+    hex: "#e6cde3"
+- name: 石竹色
+  name_en: sekichikuiro
+  color:
+    rgb:
+      r: 229
+      g: 171
+      b: 190
+    hex: "#e5abbe"
+- name: 薄紅梅
+  name_en: usukoubai
+  color:
+    rgb:
+      r: 229
+      g: 151
+      b: 178
+    hex: "#e597b2"
+- name: 桃花色
+  name_en: momohanairo
+  color:
+    rgb:
+      r: 225
+      g: 152
+      b: 180
+    hex: "#e198b4"
+- name: 水柿
+  name_en: mizugaki
+  color:
+    rgb:
+      r: 228
+      g: 171
+      b: 155
+    hex: "#e4ab9b"
+- name: ときがら茶
+  name_en: tokigaracha
+  color:
+    rgb:
+      r: 224
+      g: 158
+      b: 135
+    hex: "#e09e87"
+- name: 退紅
+  name_en: arazome
+  color:
+    rgb:
+      r: 214
+      g: 144
+      b: 144
+    hex: "#d69090"
+- name: 薄柿
+  name_en: usugaki
+  color:
+    rgb:
+      r: 212
+      g: 172
+      b: 173
+    hex: "#d4acad"
+- name: 長春色
+  name_en: choushuniro
+  color:
+    rgb:
+      r: 201
+      g: 117
+      b: 134
+    hex: "#c97586"
+- name: 梅鼠
+  name_en: umenezu
+  color:
+    rgb:
+      r: 192
+      g: 153
+      b: 160
+    hex: "#c099a0"
+- name: 鴇浅葱
+  name_en: tokiasagi
+  color:
+    rgb:
+      r: 184
+      g: 136
+      b: 132
+    hex: "#b88884"
+- name: 梅染
+  name_en: umezome
+  color:
+    rgb:
+      r: 180
+      g: 138
+      b: 118
+    hex: "#b48a76"
+- name: 蘇芳香
+  name_en: suoukou
+  color:
+    rgb:
+      r: 168
+      g: 105
+      b: 101
+    hex: "#a86965"
+- name: 浅蘇芳
+  name_en: asasuou
+  color:
+    rgb:
+      r: 162
+      g: 87
+      b: 104
+    hex: "#a25768"
+- name: 真朱
+  name_en: masoo
+  color:
+    rgb:
+      r: 236
+      g: 109
+      b: 113
+    hex: "#ec6d71"
+- name: 赤紫
+  name_en: akamurasaki
+  color:
+    rgb:
+      r: 235
+      g: 110
+      b: 165
+    hex: "#eb6ea5"
+- name: 躑躅色
+  name_en: tsutsujiiro
+  color:
+    rgb:
+      r: 233
+      g: 82
+      b: 149
+    hex: "#e95295"
+- name: 牡丹色
+  name_en: botaniro
+  color:
+    rgb:
+      r: 231
+      g: 96
+      b: 158
+    hex: "#e7609e"
+- name: 今様色
+  name_en: imayouiro
+  color:
+    rgb:
+      r: 208
+      g: 87
+      b: 107
+    hex: "#d0576b"
+- name: 中紅
+  name_en: nakabeni
+  color:
+    rgb:
+      r: 200
+      g: 81
+      b: 121
+    hex: "#c85179"
+- name: 薔薇色
+  name_en: barairo
+  color:
+    rgb:
+      r: 233
+      g: 84
+      b: 107
+    hex: "#e9546b"
+- name: 韓紅
+  name_en: karakurenai
+  color:
+    rgb:
+      r: 233
+      g: 84
+      b: 100
+    hex: "#e95464"
+- name: 銀朱
+  name_en: ginshu
+  color:
+    rgb:
+      r: 200
+      g: 85
+      b: 84
+    hex: "#c85554"
+- name: 赤紅
+  name_en: akabeni
+  color:
+    rgb:
+      r: 197
+      g: 61
+      b: 67
+    hex: "#c53d43"
+- name: 紅緋
+  name_en: benihi
+  color:
+    rgb:
+      r: 232
+      g: 57
+      b: 41
+    hex: "#e83929"
+- name: 赤
+  name_en: aka
+  color:
+    rgb:
+      r: 230
+      g: 0
+      b: 51
+    hex: "#e60033"
+- name: 猩々緋
+  name_en: shoujouhi
+  color:
+    rgb:
+      r: 226
+      g: 4
+      b: 27
+    hex: "#e2041b"
+- name: 紅
+  name_en: kurenai
+  color:
+    rgb:
+      r: 215
+      g: 0
+      b: 58
+    hex: "#d7003a"
+- name: 深緋
+  name_en: kokihi
+  color:
+    rgb:
+      r: 201
+      g: 23
+      b: 30
+    hex: "#c9171e"
+- name: 緋色
+  name_en: hiiro
+  color:
+    rgb:
+      r: 211
+      g: 56
+      b: 28
+    hex: "#d3381c"
+- name: 赤丹
+  name_en: akani
+  color:
+    rgb:
+      r: 206
+      g: 82
+      b: 66
+    hex: "#ce5242"
+- name: 紅赤
+  name_en: beniaka
+  color:
+    rgb:
+      r: 217
+      g: 51
+      b: 63
+    hex: "#d9333f"
+- name: 臙脂
+  name_en: enji
+  color:
+    rgb:
+      r: 185
+      g: 64
+      b: 71
+    hex: "#b94047"
+- name: 朱・緋
+  name_en: ake
+  color:
+    rgb:
+      r: 186
+      g: 38
+      b: 54
+    hex: "#ba2636"
+- name: 茜色
+  name_en: akaneiro
+  color:
+    rgb:
+      r: 183
+      g: 40
+      b: 46
+    hex: "#b7282e"
+- name: 紅海老茶
+  name_en: beniebicha
+  color:
+    rgb:
+      r: 167
+      g: 56
+      b: 54
+    hex: "#a73836"
+- name: 蘇芳
+  name_en: suou
+  color:
+    rgb:
+      r: 158
+      g: 61
+      b: 63
+    hex: "#9e3d3f"
+- name: 真紅
+  name_en: shinku
+  color:
+    rgb:
+      r: 162
+      g: 32
+      b: 65
+    hex: "#a22041"
+- name: 濃紅
+  name_en: koikurenai
+  color:
+    rgb:
+      r: 162
+      g: 32
+      b: 65
+    hex: "#a22041"
+- name: 象牙色
+  name_en: zougeiro
+  color:
+    rgb:
+      r: 248
+      g: 244
+      b: 230
+    hex: "#f8f4e6"
+- name: 練色
+  name_en: neriiro
+  color:
+    rgb:
+      r: 237
+      g: 228
+      b: 205
+    hex: "#ede4cd"
+- name: 灰白色
+  name_en: kaihakushoku
+  color:
+    rgb:
+      r: 233
+      g: 228
+      b: 212
+    hex: "#e9e4d4"
+- name: 蒸栗色
+  name_en: mushiguriiro
+  color:
+    rgb:
+      r: 235
+      g: 225
+      b: 169
+    hex: "#ebe1a9"
+- name: 女郎花
+  name_en: ominaeshi
+  color:
+    rgb:
+      r: 242
+      g: 242
+      b: 176
+    hex: "#f2f2b0"
+- name: 枯草色
+  name_en: karekusairo
+  color:
+    rgb:
+      r: 228
+      g: 220
+      b: 138
+    hex: "#e4dc8a"
+- name: 淡黄
+  name_en: tankou
+  color:
+    rgb:
+      r: 248
+      g: 229
+      b: 140
+    hex: "#f8e58c"
+- name: 白茶
+  name_en: shiracha
+  color:
+    rgb:
+      r: 221
+      g: 187
+      b: 153
+    hex: "#ddbb99"
+- name: 赤白橡
+  name_en: akashirotsurubami
+  color:
+    rgb:
+      r: 215
+      g: 169
+      b: 140
+    hex: "#d7a98c"
+- name: 洗柿
+  name_en: araigaki
+  color:
+    rgb:
+      r: 242
+      g: 201
+      b: 172
+    hex: "#f2c9ac"
+- name: 鳥の子色
+  name_en: torinokoiro
+  color:
+    rgb:
+      r: 255
+      g: 241
+      b: 207
+    hex: "#fff1cf"
+- name: 蜂蜜色
+  name_en: hachimitsuiro
+  color:
+    rgb:
+      r: 253
+      g: 222
+      b: 165
+    hex: "#fddea5"
+- name: 肌色
+  name_en: hadairo
+  color:
+    rgb:
+      r: 252
+      g: 226
+      b: 196
+    hex: "#fce2c4"
+- name: 薄卵色
+  name_en: usutamagoiro
+  color:
+    rgb:
+      r: 253
+      g: 232
+      b: 208
+    hex: "#fde8d0"
+- name: 雄黄
+  name_en: yuuou
+  color:
+    rgb:
+      r: 249
+      g: 200
+      b: 155
+    hex: "#f9c89b"
+- name: 洒落柿
+  name_en: sharegaki
+  color:
+    rgb:
+      r: 247
+      g: 189
+      b: 143
+    hex: "#f7bd8f"
+- name: 赤香
+  name_en: akakou
+  color:
+    rgb:
+      r: 246
+      g: 184
+      b: 148
+    hex: "#f6b894"
+- name: 砥粉色
+  name_en: tonokoiro
+  color:
+    rgb:
+      r: 244
+      g: 221
+      b: 165
+    hex: "#f4dda5"
+- name: 肉色
+  name_en: nikuiro
+  color:
+    rgb:
+      r: 241
+      g: 191
+      b: 153
+    hex: "#f1bf99"
+- name: 人色
+  name_en: hitoiro
+  color:
+    rgb:
+      r: 241
+      g: 191
+      b: 153
+    hex: "#f1bf99"
+- name: 丁子色
+  name_en: choujiiro
+  color:
+    rgb:
+      r: 239
+      g: 205
+      b: 154
+    hex: "#efcd9a"
+- name: 香色
+  name_en: kouiro
+  color:
+    rgb:
+      r: 239
+      g: 205
+      b: 154
+    hex: "#efcd9a"
+- name: 薄香
+  name_en: usukou
+  color:
+    rgb:
+      r: 240
+      g: 207
+      b: 160
+    hex: "#f0cfa0"
+- name: 浅黄
+  name_en: usuki
+  color:
+    rgb:
+      r: 237
+      g: 211
+      b: 161
+    hex: "#edd3a1"
+- name: 枯色
+  name_en: kareiro
+  color:
+    rgb:
+      r: 224
+      g: 195
+      b: 140
+    hex: "#e0c38c"
+- name: 淡香
+  name_en: usukouawa
+  color:
+    rgb:
+      r: 243
+      g: 191
+      b: 136
+    hex: "#f3bf88"
+- name: 杏色
+  name_en: anzuiro
+  color:
+    rgb:
+      r: 247
+      g: 185
+      b: 119
+    hex: "#f7b977"
+- name: 東雲色
+  name_en: shinonomeiro
+  color:
+    rgb:
+      r: 241
+      g: 144
+      b: 114
+    hex: "#f19072"
+- name: 曙色
+  name_en: akebonoiro
+  color:
+    rgb:
+      r: 241
+      g: 144
+      b: 114
+    hex: "#f19072"
+- name: 珊瑚朱色
+  name_en: sangoshuiro
+  color:
+    rgb:
+      r: 238
+      g: 131
+      b: 111
+    hex: "#ee836f"
+- name: 深支子
+  name_en: kokikuchinashi
+  color:
+    rgb:
+      r: 235
+      g: 155
+      b: 111
+    hex: "#eb9b6f"
+- name: そひ
+  name_en: sohi
+  color:
+    rgb:
+      r: 224
+      g: 129
+      b: 94
+    hex: "#e0815e"
+- name: 浅緋
+  name_en: usukihi
+  color:
+    rgb:
+      r: 223
+      g: 113
+      b: 99
+    hex: "#df7163"
+- name: 真赭
+  name_en: masoho
+  color:
+    rgb:
+      r: 213
+      g: 124
+      b: 107
+    hex: "#d57c6b"
+- name: 洗朱
+  name_en: araishu
+  color:
+    rgb:
+      r: 208
+      g: 130
+      b: 108
+    hex: "#d0826c"
+- name: 遠州茶
+  name_en: enshuucha
+  color:
+    rgb:
+      r: 202
+      g: 130
+      b: 105
+    hex: "#ca8269"
+- name: 紅樺色
+  name_en: benikabairo
+  color:
+    rgb:
+      r: 187
+      g: 85
+      b: 72
+    hex: "#bb5548"
+- name: 赭
+  name_en: soho
+  color:
+    rgb:
+      r: 171
+      g: 105
+      b: 83
+    hex: "#ab6953"
+- name: 小豆色
+  name_en: azukiiro
+  color:
+    rgb:
+      r: 150
+      g: 81
+      b: 77
+    hex: "#96514d"
+- name: 枯茶
+  name_en: karacha
+  color:
+    rgb:
+      r: 141
+      g: 100
+      b: 73
+    hex: "#8d6449"
+- name: 飴色
+  name_en: ameiro
+  color:
+    rgb:
+      r: 222
+      g: 176
+      b: 104
+    hex: "#deb068"
+- name: 駱駝色
+  name_en: rakudairo
+  color:
+    rgb:
+      r: 191
+      g: 121
+      b: 78
+    hex: "#bf794e"
+- name: 土色
+  name_en: tsuchiiro
+  color:
+    rgb:
+      r: 188
+      g: 118
+      b: 60
+    hex: "#bc763c"
+- name: 黄唐茶
+  name_en: kigarachato
+  color:
+    rgb:
+      r: 185
+      g: 140
+      b: 70
+    hex: "#b98c46"
+- name: 桑染
+  name_en: kuwazome
+  color:
+    rgb:
+      r: 183
+      g: 155
+      b: 91
+    hex: "#b79b5b"
+- name: 櫨色
+  name_en: hajiiro
+  color:
+    rgb:
+      r: 183
+      g: 123
+      b: 87
+    hex: "#b77b57"
+- name: 黄橡
+  name_en: kitsurubami
+  color:
+    rgb:
+      r: 182
+      g: 141
+      b: 76
+    hex: "#b68d4c"
+- name: 丁字染
+  name_en: choujizome
+  color:
+    rgb:
+      r: 173
+      g: 125
+      b: 76
+    hex: "#ad7d4c"
+- name: 香染
+  name_en: kouzome
+  color:
+    rgb:
+      r: 173
+      g: 125
+      b: 76
+    hex: "#ad7d4c"
+- name: 枇杷茶
+  name_en: biwacha
+  color:
+    rgb:
+      r: 174
+      g: 124
+      b: 79
+    hex: "#ae7c4f"
+- name: 芝翫茶
+  name_en: shikancha
+  color:
+    rgb:
+      r: 173
+      g: 126
+      b: 78
+    hex: "#ad7e4e"
+- name: 焦香
+  name_en: kogarekou
+  color:
+    rgb:
+      r: 174
+      g: 124
+      b: 88
+    hex: "#ae7c58"
+- name: 胡桃色
+  name_en: kurumiiro
+  color:
+    rgb:
+      r: 168
+      g: 111
+      b: 76
+    hex: "#a86f4c"
+- name: 渋紙色
+  name_en: shibukamiiro
+  color:
+    rgb:
+      r: 148
+      g: 98
+      b: 67
+    hex: "#946243"
+- name: 朽葉色
+  name_en: kuchibairo
+  color:
+    rgb:
+      r: 145
+      g: 115
+      b: 71
+    hex: "#917347"
+- name: 桑茶
+  name_en: kuwacha
+  color:
+    rgb:
+      r: 149
+      g: 111
+      b: 41
+    hex: "#956f29"
+- name: 路考茶
+  name_en: rokoucha
+  color:
+    rgb:
+      r: 140
+      g: 112
+      b: 66
+    hex: "#8c7042"
+- name: 国防色
+  name_en: kokuboushoku
+  color:
+    rgb:
+      r: 123
+      g: 108
+      b: 62
+    hex: "#7b6c3e"
+- name: 伽羅色
+  name_en: kyarairo
+  color:
+    rgb:
+      r: 216
+      g: 163
+      b: 115
+    hex: "#d8a373"
+- name: 江戸茶
+  name_en: edocha
+  color:
+    rgb:
+      r: 205
+      g: 140
+      b: 92
+    hex: "#cd8c5c"
+- name: 樺色
+  name_en: kabairo
+  color:
+    rgb:
+      r: 205
+      g: 94
+      b: 60
+    hex: "#cd5e3c"
+- name: 紅鬱金
+  name_en: beniukon
+  color:
+    rgb:
+      r: 203
+      g: 131
+      b: 71
+    hex: "#cb8347"
+- name: 土器色
+  name_en: kawarakeiro
+  color:
+    rgb:
+      r: 195
+      g: 120
+      b: 84
+    hex: "#c37854"
+- name: 狐色
+  name_en: kitsuneiro
+  color:
+    rgb:
+      r: 195
+      g: 135
+      b: 67
+    hex: "#c38743"
+- name: 黄土色
+  name_en: oudoiro
+  color:
+    rgb:
+      r: 195
+      g: 145
+      b: 67
+    hex: "#c39143"
+- name: 琥珀色
+  name_en: kohakuiro
+  color:
+    rgb:
+      r: 191
+      g: 120
+      b: 58
+    hex: "#bf783a"
+- name: 赤茶
+  name_en: akacha
+  color:
+    rgb:
+      r: 187
+      g: 85
+      b: 53
+    hex: "#bb5535"
+- name: 代赭
+  name_en: taisha
+  color:
+    rgb:
+      r: 187
+      g: 85
+      b: 32
+    hex: "#bb5520"
+- name: 煉瓦色
+  name_en: rengairo
+  color:
+    rgb:
+      r: 181
+      g: 82
+      b: 51
+    hex: "#b55233"
+- name: 雀茶
+  name_en: suzumecha
+  color:
+    rgb:
+      r: 170
+      g: 79
+      b: 55
+    hex: "#aa4f37"
+- name: 団十郎茶
+  name_en: danjuuroucha
+  color:
+    rgb:
+      r: 159
+      g: 86
+      b: 58
+    hex: "#9f563a"
+- name: 柿渋色
+  name_en: kakishibuiro
+  color:
+    rgb:
+      r: 159
+      g: 86
+      b: 58
+    hex: "#9f563a"
+- name: 紅鳶
+  name_en: benitobi
+  color:
+    rgb:
+      r: 154
+      g: 73
+      b: 63
+    hex: "#9a493f"
+- name: 灰茶
+  name_en: haicha
+  color:
+    rgb:
+      r: 152
+      g: 98
+      b: 60
+    hex: "#98623c"
+- name: 茶色
+  name_en: chairo
+  color:
+    rgb:
+      r: 150
+      g: 80
+      b: 66
+    hex: "#965042"
+- name: 檜皮色
+  name_en: hiwadairo
+  color:
+    rgb:
+      r: 150
+      g: 80
+      b: 54
+    hex: "#965036"
+- name: 鳶色
+  name_en: tobiiro
+  color:
+    rgb:
+      r: 149
+      g: 72
+      b: 63
+    hex: "#95483f"
+- name: 柿茶
+  name_en: kakicha
+  color:
+    rgb:
+      r: 149
+      g: 78
+      b: 42
+    hex: "#954e2a"
+- name: 弁柄色
+  name_en: bengarairo
+  color:
+    rgb:
+      r: 143
+      g: 46
+      b: 20
+    hex: "#8f2e14"
+- name: 赤錆色
+  name_en: akasabiiro
+  color:
+    rgb:
+      r: 138
+      g: 51
+      b: 25
+    hex: "#8a3319"
+- name: 褐色
+  name_en: kachiiro
+  color:
+    rgb:
+      r: 77
+      g: 76
+      b: 97
+    hex: "#4d4c61"
+- name: 栗梅
+  name_en: kuriume
+  color:
+    rgb:
+      r: 133
+      g: 46
+      b: 25
+    hex: "#852e19"
+- name: 紅檜皮
+  name_en: benihihada
+  color:
+    rgb:
+      r: 123
+      g: 71
+      b: 65
+    hex: "#7b4741"
+- name: 海老茶
+  name_en: ebicha
+  color:
+    rgb:
+      r: 119
+      g: 60
+      b: 48
+    hex: "#773c30"
+- name: 唐茶
+  name_en: karachato
+  color:
+    rgb:
+      r: 120
+      g: 60
+      b: 29
+    hex: "#783c1d"
+- name: 栗色
+  name_en: kuriirochestnut
+  color:
+    rgb:
+      r: 118
+      g: 47
+      b: 7
+    hex: "#762f07"
+- name: 赤銅色
+  name_en: shakudouiro
+  color:
+    rgb:
+      r: 117
+      g: 33
+      b: 0
+    hex: "#752100"
+- name: 錆色
+  name_en: sabiiro
+  color:
+    rgb:
+      r: 108
+      g: 53
+      b: 36
+    hex: "#6c3524"
+- name: 赤褐色
+  name_en: sekkasshoku
+  color:
+    rgb:
+      r: 104
+      g: 63
+      b: 54
+    hex: "#683f36"
+- name: 茶褐色
+  name_en: chakasshoku
+  color:
+    rgb:
+      r: 102
+      g: 64
+      b: 50
+    hex: "#664032"
+- name: 栗皮茶
+  name_en: kurikawacha
+  color:
+    rgb:
+      r: 109
+      g: 60
+      b: 50
+    hex: "#6d3c32"
+- name: 黒茶
+  name_en: kurocha
+  color:
+    rgb:
+      r: 88
+      g: 56
+      b: 34
+    hex: "#583822"
+- name: 葡萄茶
+  name_en: ebichabudo
+  color:
+    rgb:
+      r: 108
+      g: 44
+      b: 47
+    hex: "#6c2c2f"
+- name: 葡萄色（えびいろ）
+  name_en: ebiiro
+  color:
+    rgb:
+      r: 100
+      g: 1
+      b: 37
+    hex: "#640125"
+- name: 萱草色
+  name_en: kanzouiro
+  color:
+    rgb:
+      r: 248
+      g: 184
+      b: 98
+    hex: "#f8b862"
+- name: 柑子色
+  name_en: koujiiro
+  color:
+    rgb:
+      r: 246
+      g: 173
+      b: 73
+    hex: "#f6ad49"
+- name: 金茶
+  name_en: kincha
+  color:
+    rgb:
+      r: 243
+      g: 152
+      b: 0
+    hex: "#f39800"
+- name: 蜜柑色
+  name_en: mikaniro
+  color:
+    rgb:
+      r: 240
+      g: 131
+      b: 0
+    hex: "#f08300"
+- name: 鉛丹色
+  name_en: entaniro
+  color:
+    rgb:
+      r: 236
+      g: 109
+      b: 81
+    hex: "#ec6d51"
+- name: 黄丹
+  name_en: ouni
+  color:
+    rgb:
+      r: 238
+      g: 121
+      b: 72
+    hex: "#ee7948"
+- name: 柿色
+  name_en: kakiiro
+  color:
+    rgb:
+      r: 237
+      g: 109
+      b: 61
+    hex: "#ed6d3d"
+- name: 黄赤
+  name_en: kiaka
+  color:
+    rgb:
+      r: 236
+      g: 104
+      b: 0
+    hex: "#ec6800"
+- name: 人参色
+  name_en: ninjiniro
+  color:
+    rgb:
+      r: 236
+      g: 104
+      b: 0
+    hex: "#ec6800"
+- name: 橙色
+  name_en: daidaiiro
+  color:
+    rgb:
+      r: 238
+      g: 120
+      b: 0
+    hex: "#ee7800"
+- name: 照柿
+  name_en: terigaki
+  color:
+    rgb:
+      r: 235
+      g: 98
+      b: 56
+    hex: "#eb6238"
+- name: 赤橙
+  name_en: akadaidai
+  color:
+    rgb:
+      r: 234
+      g: 85
+      b: 6
+    hex: "#ea5506"
+- name: 金赤
+  name_en: kinaka
+  color:
+    rgb:
+      r: 234
+      g: 85
+      b: 6
+    hex: "#ea5506"
+- name: 朱色
+  name_en: shuiro
+  color:
+    rgb:
+      r: 235
+      g: 97
+      b: 1
+    hex: "#eb6101"
+- name: 小麦色
+  name_en: komugiiro
+  color:
+    rgb:
+      r: 228
+      g: 158
+      b: 97
+    hex: "#e49e61"
+- name: 丹色
+  name_en: niiro
+  color:
+    rgb:
+      r: 228
+      g: 94
+      b: 50
+    hex: "#e45e32"
+- name: 黄茶
+  name_en: kicha
+  color:
+    rgb:
+      r: 225
+      g: 123
+      b: 52
+    hex: "#e17b34"
+- name: 肉桂色
+  name_en: nikkeiiro
+  color:
+    rgb:
+      r: 221
+      g: 122
+      b: 86
+    hex: "#dd7a56"
+- name: 赤朽葉色
+  name_en: akakuchibairo
+  color:
+    rgb:
+      r: 219
+      g: 132
+      b: 73
+    hex: "#db8449"
+- name: 黄櫨染
+  name_en: kourozen
+  color:
+    rgb:
+      r: 214
+      g: 106
+      b: 53
+    hex: "#d66a35"
+- name: 蒲公英色
+  name_en: tanpopoiro
+  color:
+    rgb:
+      r: 255
+      g: 217
+      b: 0
+    hex: "#ffd900"
+- name: 黄色
+  name_en: kiiro
+  color:
+    rgb:
+      r: 255
+      g: 217
+      b: 0
+    hex: "#ffd900"
+- name: 中黄
+  name_en: chuuki
+  color:
+    rgb:
+      r: 255
+      g: 234
+      b: 0
+    hex: "#ffea00"
+- name: 菜の花色
+  name_en: nanohanairo
+  color:
+    rgb:
+      r: 255
+      g: 236
+      b: 71
+    hex: "#ffec47"
+- name: 菜の花色2（→彩度変更）
+  name_en: nanohanairotwo
+  color:
+    rgb:
+      r: 255
+      g: 242
+      b: 127
+    hex: "#fff27f"
+- name: 黄檗色
+  name_en: kihadairo
+  color:
+    rgb:
+      r: 254
+      g: 242
+      b: 99
+    hex: "#fef263"
+- name: 卵色
+  name_en: tamagoiro
+  color:
+    rgb:
+      r: 252
+      g: 213
+      b: 117
+    hex: "#fcd575"
+- name: 花葉色
+  name_en: hanabairo
+  color:
+    rgb:
+      r: 251
+      g: 210
+      b: 107
+    hex: "#fbd26b"
+- name: 刈安色
+  name_en: kariyasuiro
+  color:
+    rgb:
+      r: 245
+      g: 229
+      b: 107
+    hex: "#f5e56b"
+- name: 玉蜀黍色
+  name_en: toumorokoshiiro
+  color:
+    rgb:
+      r: 238
+      g: 195
+      b: 98
+    hex: "#eec362"
+- name: 金糸雀色
+  name_en: kanariairo
+  color:
+    rgb:
+      r: 235
+      g: 216
+      b: 66
+    hex: "#ebd842"
+- name: 黄支子色
+  name_en: kikuchinashiiro
+  color:
+    rgb:
+      r: 255
+      g: 219
+      b: 79
+    hex: "#ffdb4f"
+- name: 支子色
+  name_en: kuchinashiiro
+  color:
+    rgb:
+      r: 251
+      g: 202
+      b: 77
+    hex: "#fbca4d"
+- name: 向日葵色
+  name_en: himawariiro
+  color:
+    rgb:
+      r: 252
+      g: 200
+      b: 0
+    hex: "#fcc800"
+- name: 山吹色
+  name_en: yamabukiiro
+  color:
+    rgb:
+      r: 248
+      g: 181
+      b: 0
+    hex: "#f8b500"
+- name: 鬱金色
+  name_en: ukoniro
+  color:
+    rgb:
+      r: 250
+      g: 191
+      b: 20
+    hex: "#fabf14"
+- name: 藤黄
+  name_en: touou
+  color:
+    rgb:
+      r: 247
+      g: 193
+      b: 20
+    hex: "#f7c114"
+- name: 金色
+  name_en: konjiki
+  color:
+    rgb:
+      r: 230
+      g: 180
+      b: 34
+    hex: "#e6b422"
+- name: 黄金
+  name_en: kogane
+  color:
+    rgb:
+      r: 230
+      g: 180
+      b: 34
+    hex: "#e6b422"
+- name: 櫨染
+  name_en: hajizome
+  color:
+    rgb:
+      r: 217
+      g: 166
+      b: 46
+    hex: "#d9a62e"
+- name: 黄朽葉色
+  name_en: kikuchibairo
+  color:
+    rgb:
+      r: 211
+      g: 162
+      b: 67
+    hex: "#d3a243"
+- name: 山吹茶
+  name_en: yamabukicha
+  color:
+    rgb:
+      r: 200
+      g: 153
+      b: 50
+    hex: "#c89932"
+- name: 芥子色
+  name_en: karashiiro
+  color:
+    rgb:
+      r: 208
+      g: 175
+      b: 76
+    hex: "#d0af4c"
+- name: 豆がら茶
+  name_en: mamegaracha
+  color:
+    rgb:
+      r: 139
+      g: 150
+      b: 141
+    hex: "#8b968d"
+- name: 麹塵
+  name_en: kikujin
+  color:
+    rgb:
+      r: 110
+      g: 121
+      b: 85
+    hex: "#6e7955"
+- name: 山鳩色
+  name_en: yamabatoiro
+  color:
+    rgb:
+      r: 118
+      g: 124
+      b: 107
+    hex: "#767c6b"
+- name: 利休鼠
+  name_en: rikyuunezumi
+  color:
+    rgb:
+      r: 136
+      g: 142
+      b: 126
+    hex: "#888e7e"
+- name: 海松茶
+  name_en: mirucha
+  color:
+    rgb:
+      r: 90
+      g: 84
+      b: 75
+    hex: "#5a544b"
+- name: 藍海松茶
+  name_en: aimirucha
+  color:
+    rgb:
+      r: 86
+      g: 86
+      b: 75
+    hex: "#56564b"
+- name: 藍媚茶
+  name_en: aikobicha
+  color:
+    rgb:
+      r: 85
+      g: 86
+      b: 71
+    hex: "#555647"
+- name: 千歳茶
+  name_en: sensaichachitose
+  color:
+    rgb:
+      r: 73
+      g: 74
+      b: 65
+    hex: "#494a41"
+- name: 岩井茶
+  name_en: iwaicha
+  color:
+    rgb:
+      r: 107
+      g: 111
+      b: 89
+    hex: "#6b6f59"
+- name: 仙斎茶
+  name_en: sensaicha
+  color:
+    rgb:
+      r: 71
+      g: 75
+      b: 66
+    hex: "#474b42"
+- name: 黒緑
+  name_en: kuromidori
+  color:
+    rgb:
+      r: 51
+      g: 54
+      b: 49
+    hex: "#333631"
+- name: 柳煤竹
+  name_en: yanagisusutake
+  color:
+    rgb:
+      r: 91
+      g: 99
+      b: 86
+    hex: "#5b6356"
+- name: 樺茶色
+  name_en: kabachairo
+  color:
+    rgb:
+      r: 114
+      g: 98
+      b: 80
+    hex: "#726250"
+- name: 空五倍子色
+  name_en: utsubushiiro
+  color:
+    rgb:
+      r: 157
+      g: 137
+      b: 108
+    hex: "#9d896c"
+- name: 生壁色
+  name_en: namakabeiro
+  color:
+    rgb:
+      r: 148
+      g: 132
+      b: 106
+    hex: "#94846a"
+- name: 肥後煤竹
+  name_en: higosusutake
+  color:
+    rgb:
+      r: 137
+      g: 120
+      b: 88
+    hex: "#897858"
+- name: 媚茶
+  name_en: kobicha
+  color:
+    rgb:
+      r: 113
+      g: 98
+      b: 70
+    hex: "#716246"
+- name: 白橡
+  name_en: shirotsurubami
+  color:
+    rgb:
+      r: 203
+      g: 185
+      b: 148
+    hex: "#cbb994"
+- name: 亜麻色
+  name_en: amairo
+  color:
+    rgb:
+      r: 214
+      g: 198
+      b: 175
+    hex: "#d6c6af"
+- name: 榛色
+  name_en: hashibamiiro
+  color:
+    rgb:
+      r: 191
+      g: 164
+      b: 111
+    hex: "#bfa46f"
+- name: 灰汁色
+  name_en: akuiro
+  color:
+    rgb:
+      r: 158
+      g: 148
+      b: 120
+    hex: "#9e9478"
+- name: 利休茶
+  name_en: rikyuucha
+  color:
+    rgb:
+      r: 165
+      g: 149
+      b: 100
+    hex: "#a59564"
+- name: 鶯茶
+  name_en: uguisucha
+  color:
+    rgb:
+      r: 113
+      g: 92
+      b: 31
+    hex: "#715c1f"
+- name: 木蘭色
+  name_en: mokuranjiki
+  color:
+    rgb:
+      r: 199
+      g: 179
+      b: 112
+    hex: "#c7b370"
+- name: 砂色
+  name_en: sunairo
+  color:
+    rgb:
+      r: 220
+      g: 211
+      b: 178
+    hex: "#dcd3b2"
+- name: 油色
+  name_en: aburairo
+  color:
+    rgb:
+      r: 161
+      g: 147
+      b: 97
+    hex: "#a19361"
+- name: 利休色
+  name_en: rikyuuiro
+  color:
+    rgb:
+      r: 143
+      g: 134
+      b: 103
+    hex: "#8f8667"
+- name: 梅幸茶
+  name_en: baikoucha
+  color:
+    rgb:
+      r: 136
+      g: 121
+      b: 56
+    hex: "#887938"
+- name: 璃寛茶
+  name_en: rikancha
+  color:
+    rgb:
+      r: 106
+      g: 93
+      b: 33
+    hex: "#6a5d21"
+- name: 黄海松茶
+  name_en: kimirucha
+  color:
+    rgb:
+      r: 145
+      g: 135
+      b: 84
+    hex: "#918754"
+- name: 菜種油色
+  name_en: nataneyuiro
+  color:
+    rgb:
+      r: 166
+      g: 148
+      b: 37
+    hex: "#a69425"
+- name: 青朽葉
+  name_en: aokuchiba
+  color:
+    rgb:
+      r: 173
+      g: 162
+      b: 80
+    hex: "#ada250"
+- name: 根岸色
+  name_en: negishiiro
+  color:
+    rgb:
+      r: 147
+      g: 139
+      b: 75
+    hex: "#938b4b"
+- name: 鶸茶
+  name_en: hiwacha
+  color:
+    rgb:
+      r: 140
+      g: 136
+      b: 97
+    hex: "#8c8861"
+- name: 柳茶
+  name_en: yanagicha
+  color:
+    rgb:
+      r: 161
+      g: 164
+      b: 109
+    hex: "#a1a46d"
+- name: 海松色
+  name_en: miruiro
+  color:
+    rgb:
+      r: 114
+      g: 109
+      b: 64
+    hex: "#726d40"
+- name: 鶯色
+  name_en: uguisuiro
+  color:
+    rgb:
+      r: 146
+      g: 140
+      b: 54
+    hex: "#928c36"
+- name: 緑黄色
+  name_en: ryokuoushoku
+  color:
+    rgb:
+      r: 220
+      g: 203
+      b: 24
+    hex: "#dccb18"
+- name: 鶸色
+  name_en: hiwairo
+  color:
+    rgb:
+      r: 215
+      g: 207
+      b: 58
+    hex: "#d7cf3a"
+- name: 抹茶色
+  name_en: macchairo
+  color:
+    rgb:
+      r: 197
+      g: 197
+      b: 106
+    hex: "#c5c56a"
+- name: 若草色
+  name_en: wakakusairo
+  color:
+    rgb:
+      r: 195
+      g: 216
+      b: 37
+    hex: "#c3d825"
+- name: 黄緑
+  name_en: kimidori
+  color:
+    rgb:
+      r: 184
+      g: 210
+      b: 0
+    hex: "#b8d200"
+- name: 若芽色
+  name_en: wakameiro
+  color:
+    rgb:
+      r: 224
+      g: 235
+      b: 175
+    hex: "#e0ebaf"
+- name: 若菜色
+  name_en: wakanairo
+  color:
+    rgb:
+      r: 216
+      g: 230
+      b: 152
+    hex: "#d8e698"
+- name: 若苗色
+  name_en: wakanaeiro
+  color:
+    rgb:
+      r: 199
+      g: 220
+      b: 104
+    hex: "#c7dc68"
+- name: 青丹
+  name_en: aoni
+  color:
+    rgb:
+      r: 153
+      g: 171
+      b: 78
+    hex: "#99ab4e"
+- name: 草色
+  name_en: kusairo
+  color:
+    rgb:
+      r: 123
+      g: 141
+      b: 66
+    hex: "#7b8d42"
+- name: 苔色
+  name_en: kokeiro
+  color:
+    rgb:
+      r: 105
+      g: 130
+      b: 27
+    hex: "#69821b"
+- name: 萌黄
+  name_en: moegi
+  color:
+    rgb:
+      r: 170
+      g: 207
+      b: 83
+    hex: "#aacf53"
+- name: 苗色
+  name_en: naeiro
+  color:
+    rgb:
+      r: 176
+      g: 202
+      b: 113
+    hex: "#b0ca71"
+- name: 若葉色
+  name_en: wakabairo
+  color:
+    rgb:
+      r: 185
+      g: 208
+      b: 139
+    hex: "#b9d08b"
+- name: 松葉色
+  name_en: matsubairo
+  color:
+    rgb:
+      r: 131
+      g: 155
+      b: 92
+    hex: "#839b5c"
+- name: 夏虫色
+  name_en: natsumushiiro
+  color:
+    rgb:
+      r: 206
+      g: 228
+      b: 174
+    hex: "#cee4ae"
+- name: 鶸萌黄
+  name_en: hiwamoegi
+  color:
+    rgb:
+      r: 130
+      g: 174
+      b: 70
+    hex: "#82ae46"
+- name: 柳色
+  name_en: yanagiiro
+  color:
+    rgb:
+      r: 168
+      g: 201
+      b: 127
+    hex: "#a8c97f"
+- name: 青白橡
+  name_en: aoshirotsurubami
+  color:
+    rgb:
+      r: 155
+      g: 168
+      b: 141
+    hex: "#9ba88d"
+- name: 柳鼠
+  name_en: yanaginezu
+  color:
+    rgb:
+      r: 200
+      g: 213
+      b: 187
+    hex: "#c8d5bb"
+- name: 裏葉柳
+  name_en: urahayanagi
+  color:
+    rgb:
+      r: 193
+      g: 216
+      b: 172
+    hex: "#c1d8ac"
+- name: 山葵色
+  name_en: wasabiiro
+  color:
+    rgb:
+      r: 168
+      g: 191
+      b: 147
+    hex: "#a8bf93"
+- name: 老竹色
+  name_en: oitakeiro
+  color:
+    rgb:
+      r: 118
+      g: 145
+      b: 100
+    hex: "#769164"
+- name: 白緑
+  name_en: byakuroku
+  color:
+    rgb:
+      r: 214
+      g: 233
+      b: 202
+    hex: "#d6e9ca"
+- name: 淡萌黄
+  name_en: usumoegiawa
+  color:
+    rgb:
+      r: 147
+      g: 202
+      b: 118
+    hex: "#93ca76"
+- name: 柳染
+  name_en: yanagizome
+  color:
+    rgb:
+      r: 147
+      g: 184
+      b: 129
+    hex: "#93b881"
+- name: 薄萌葱
+  name_en: usumoegi
+  color:
+    rgb:
+      r: 186
+      g: 220
+      b: 173
+    hex: "#badcad"
+- name: 深川鼠
+  name_en: fukagawanezumi
+  color:
+    rgb:
+      r: 151
+      g: 167
+      b: 145
+    hex: "#97a791"
+- name: 若緑
+  name_en: wakamidori
+  color:
+    rgb:
+      r: 152
+      g: 217
+      b: 142
+    hex: "#98d98e"
+- name: 浅緑
+  name_en: asamidori
+  color:
+    rgb:
+      r: 136
+      g: 203
+      b: 127
+    hex: "#88cb7f"
+- name: 薄緑
+  name_en: usumidori
+  color:
+    rgb:
+      r: 105
+      g: 176
+      b: 118
+    hex: "#69b076"
+- name: 青鈍
+  name_en: aonibi
+  color:
+    rgb:
+      r: 107
+      g: 123
+      b: 110
+    hex: "#6b7b6e"
+- name: 青磁鼠
+  name_en: seijinezu
+  color:
+    rgb:
+      r: 190
+      g: 210
+      b: 195
+    hex: "#bed2c3"
+- name: 薄青
+  name_en: usuao
+  color:
+    rgb:
+      r: 147
+      g: 182
+      b: 156
+    hex: "#93b69c"
+- name: 錆青磁
+  name_en: sabiseiji
+  color:
+    rgb:
+      r: 166
+      g: 200
+      b: 178
+    hex: "#a6c8b2"
+- name: 緑青色
+  name_en: rokushouiro
+  color:
+    rgb:
+      r: 71
+      g: 136
+      b: 94
+    hex: "#47885e"
+- name: 千歳緑
+  name_en: chitosemidori
+  color:
+    rgb:
+      r: 49
+      g: 103
+      b: 69
+    hex: "#316745"
+- name: 若竹色
+  name_en: wakatakeiro
+  color:
+    rgb:
+      r: 104
+      g: 190
+      b: 141
+    hex: "#68be8d"
+- name: 緑
+  name_en: midori
+  color:
+    rgb:
+      r: 62
+      g: 179
+      b: 112
+    hex: "#3eb370"
+- name: 常磐色
+  name_en: tokiwairo
+  color:
+    rgb:
+      r: 0
+      g: 123
+      b: 67
+    hex: "#007b43"
+- name: 千草鼠
+  name_en: chigusanezu
+  color:
+    rgb:
+      r: 190
+      g: 211
+      b: 202
+    hex: "#bed3ca"
+- name: 千草色
+  name_en: chigusairo
+  color:
+    rgb:
+      r: 146
+      g: 181
+      b: 169
+    hex: "#92b5a9"
+- name: 青磁色
+  name_en: seijiiro
+  color:
+    rgb:
+      r: 126
+      g: 190
+      b: 165
+    hex: "#7ebea5"
+- name: 青竹色
+  name_en: aotakeiro
+  color:
+    rgb:
+      r: 126
+      g: 190
+      b: 171
+    hex: "#7ebeab"
+- name: 常磐緑
+  name_en: tokiwamidori
+  color:
+    rgb:
+      r: 2
+      g: 135
+      b: 96
+    hex: "#028760"
+- name: 木賊色
+  name_en: tokusairo
+  color:
+    rgb:
+      r: 59
+      g: 121
+      b: 96
+    hex: "#3b7960"
+- name: 天鵞絨
+  name_en: biroudo
+  color:
+    rgb:
+      r: 47
+      g: 93
+      b: 80
+    hex: "#2f5d50"
+- name: 虫襖
+  name_en: mushiao
+  color:
+    rgb:
+      r: 58
+      g: 91
+      b: 82
+    hex: "#3a5b52"
+- name: 革色
+  name_en: kawairo
+  color:
+    rgb:
+      r: 71
+      g: 89
+      b: 80
+    hex: "#475950"
+- name: 深緑
+  name_en: fukamidori
+  color:
+    rgb:
+      r: 0
+      g: 85
+      b: 46
+    hex: "#00552e"
+- name: 鉄色
+  name_en: tetsuiro
+  color:
+    rgb:
+      r: 0
+      g: 82
+      b: 67
+    hex: "#005243"
+- name: 萌葱色
+  name_en: moegiiro
+  color:
+    rgb:
+      r: 0
+      g: 110
+      b: 84
+    hex: "#006e54"
+- name: 花緑青
+  name_en: hanarokushou
+  color:
+    rgb:
+      r: 0
+      g: 163
+      b: 129
+    hex: "#00a381"
+- name: 翡翠色
+  name_en: hisuiiro
+  color:
+    rgb:
+      r: 56
+      g: 180
+      b: 139
+    hex: "#38b48b"
+- name: 青緑
+  name_en: aomidori
+  color:
+    rgb:
+      r: 0
+      g: 164
+      b: 151
+    hex: "#00a497"
+- name: 水浅葱
+  name_en: mizuasagi
+  color:
+    rgb:
+      r: 128
+      g: 171
+      b: 169
+    hex: "#80aba9"
+- name: 錆浅葱
+  name_en: sabiasagi
+  color:
+    rgb:
+      r: 92
+      g: 146
+      b: 145
+    hex: "#5c9291"
+- name: 青碧
+  name_en: seiheki
+  color:
+    rgb:
+      r: 71
+      g: 131
+      b: 132
+    hex: "#478384"
+- name: 御召茶
+  name_en: omeshicha
+  color:
+    rgb:
+      r: 67
+      g: 103
+      b: 107
+    hex: "#43676b"
+- name: 湊鼠
+  name_en: minatonezumi
+  color:
+    rgb:
+      r: 128
+      g: 152
+      b: 155
+    hex: "#80989b"
+- name: 高麗納戸
+  name_en: kourainando
+  color:
+    rgb:
+      r: 44
+      g: 79
+      b: 84
+    hex: "#2c4f54"
+- name: 百入茶
+  name_en: momoshiocha
+  color:
+    rgb:
+      r: 31
+      g: 49
+      b: 52
+    hex: "#1f3134"
+- name: 錆鼠
+  name_en: sabinezu
+  color:
+    rgb:
+      r: 71
+      g: 88
+      b: 92
+    hex: "#47585c"
+- name: 錆鉄御納戸
+  name_en: sabitetsuonando
+  color:
+    rgb:
+      r: 72
+      g: 88
+      b: 89
+    hex: "#485859"
+- name: 藍鼠
+  name_en: ainezu
+  color:
+    rgb:
+      r: 108
+      g: 132
+      b: 141
+    hex: "#6c848d"
+- name: 錆御納戸
+  name_en: sabionando
+  color:
+    rgb:
+      r: 83
+      g: 114
+      b: 125
+    hex: "#53727d"
+- name: 舛花色
+  name_en: masuhanairo
+  color:
+    rgb:
+      r: 91
+      g: 126
+      b: 145
+    hex: "#5b7e91"
+- name: 熨斗目花色
+  name_en: noshimehanairo
+  color:
+    rgb:
+      r: 66
+      g: 101
+      b: 121
+    hex: "#426579"
+- name: 御召御納戸
+  name_en: omeshionando
+  color:
+    rgb:
+      r: 76
+      g: 100
+      b: 115
+    hex: "#4c6473"
+- name: 鉄御納戸
+  name_en: tetsuonando
+  color:
+    rgb:
+      r: 69
+      g: 87
+      b: 101
+    hex: "#455765"
+- name: 紺鼠
+  name_en: konnezu
+  color:
+    rgb:
+      r: 68
+      g: 97
+      b: 123
+    hex: "#44617b"
+- name: 藍鉄
+  name_en: aitetsu
+  color:
+    rgb:
+      r: 57
+      g: 63
+      b: 76
+    hex: "#393f4c"
+- name: 青褐
+  name_en: aokachi
+  color:
+    rgb:
+      r: 57
+      g: 62
+      b: 79
+    hex: "#393e4f"
+- name: 褐返
+  name_en: kachikaeshi
+  color:
+    rgb:
+      r: 32
+      g: 55
+      b: 68
+    hex: "#203744"
+- name: 月白
+  name_en: geppaku
+  color:
+    rgb:
+      r: 234
+      g: 244
+      b: 252
+    hex: "#eaf4fc"
+- name: 白菫色
+  name_en: shirosumireiro
+  color:
+    rgb:
+      r: 234
+      g: 237
+      b: 247
+    hex: "#eaedf7"
+- name: 白花色
+  name_en: shirahanairo
+  color:
+    rgb:
+      r: 232
+      g: 236
+      b: 239
+    hex: "#e8ecef"
+- name: 藍白
+  name_en: aijiro
+  color:
+    rgb:
+      r: 235
+      g: 246
+      b: 247
+    hex: "#ebf6f7"
+- name: 白藍
+  name_en: shiraai
+  color:
+    rgb:
+      r: 193
+      g: 228
+      b: 233
+    hex: "#c1e4e9"
+- name: 水色
+  name_en: mizuiro
+  color:
+    rgb:
+      r: 188
+      g: 226
+      b: 232
+    hex: "#bce2e8"
+- name: 瓶覗
+  name_en: kamenozoki
+  color:
+    rgb:
+      r: 162
+      g: 215
+      b: 221
+    hex: "#a2d7dd"
+- name: 秘色色
+  name_en: hisokuiro
+  color:
+    rgb:
+      r: 171
+      g: 206
+      b: 216
+    hex: "#abced8"
+- name: 空色
+  name_en: sorairo
+  color:
+    rgb:
+      r: 160
+      g: 216
+      b: 239
+    hex: "#a0d8ef"
+- name: 勿忘草色
+  name_en: wasurenagusairo
+  color:
+    rgb:
+      r: 137
+      g: 195
+      b: 235
+    hex: "#89c3eb"
+- name: 青藤色
+  name_en: aofujiiro
+  color:
+    rgb:
+      r: 132
+      g: 162
+      b: 212
+    hex: "#84a2d4"
+- name: 白群
+  name_en: byakugun
+  color:
+    rgb:
+      r: 131
+      g: 204
+      b: 210
+    hex: "#83ccd2"
+- name: 浅縹
+  name_en: asahanada
+  color:
+    rgb:
+      r: 132
+      g: 185
+      b: 203
+    hex: "#84b9cb"
+- name: 薄花色
+  name_en: usuhanairo
+  color:
+    rgb:
+      r: 105
+      g: 138
+      b: 171
+    hex: "#698aab"
+- name: 納戸色
+  name_en: nandoiro
+  color:
+    rgb:
+      r: 0
+      g: 136
+      b: 153
+    hex: "#008899"
+- name: 浅葱色
+  name_en: asagiiro
+  color:
+    rgb:
+      r: 0
+      g: 163
+      b: 175
+    hex: "#00a3af"
+- name: 花浅葱
+  name_en: hanaasagi
+  color:
+    rgb:
+      r: 42
+      g: 131
+      b: 162
+    hex: "#2a83a2"
+- name: 新橋色
+  name_en: shinbashiiro
+  color:
+    rgb:
+      r: 89
+      g: 185
+      b: 198
+    hex: "#59b9c6"
+- name: 天色
+  name_en: amairoten
+  color:
+    rgb:
+      r: 44
+      g: 169
+      b: 225
+    hex: "#2ca9e1"
+- name: 露草色
+  name_en: tsuyukusairo
+  color:
+    rgb:
+      r: 56
+      g: 161
+      b: 219
+    hex: "#38a1db"
+- name: 青
+  name_en: ao
+  color:
+    rgb:
+      r: 0
+      g: 149
+      b: 217
+    hex: "#0095d9"
+- name: 薄藍
+  name_en: usuai
+  color:
+    rgb:
+      r: 0
+      g: 148
+      b: 200
+    hex: "#0094c8"
+- name: 縹色
+  name_en: hanadairo
+  color:
+    rgb:
+      r: 39
+      g: 146
+      b: 195
+    hex: "#2792c3"
+- name: 紺碧
+  name_en: konpeki
+  color:
+    rgb:
+      r: 0
+      g: 123
+      b: 187
+    hex: "#007bbb"
+- name: 薄群青
+  name_en: usugunjou
+  color:
+    rgb:
+      r: 83
+      g: 131
+      b: 195
+    hex: "#5383c3"
+- name: 薄花桜
+  name_en: usuhanazakura
+  color:
+    rgb:
+      r: 90
+      g: 121
+      b: 186
+    hex: "#5a79ba"
+- name: 群青色
+  name_en: gunjouiro
+  color:
+    rgb:
+      r: 76
+      g: 108
+      b: 179
+    hex: "#4c6cb3"
+- name: 杜若色
+  name_en: kakitsubatairo
+  color:
+    rgb:
+      r: 62
+      g: 98
+      b: 173
+    hex: "#3e62ad"
+- name: 瑠璃色
+  name_en: ruriiro
+  color:
+    rgb:
+      r: 30
+      g: 80
+      b: 162
+    hex: "#1e50a2"
+- name: 薄縹
+  name_en: usuhanada
+  color:
+    rgb:
+      r: 80
+      g: 126
+      b: 164
+    hex: "#507ea4"
+- name: 瑠璃紺
+  name_en: rurikon
+  color:
+    rgb:
+      r: 25
+      g: 68
+      b: 142
+    hex: "#19448e"
+- name: 紺瑠璃
+  name_en: konruri
+  color:
+    rgb:
+      r: 22
+      g: 74
+      b: 132
+    hex: "#164a84"
+- name: 藍色
+  name_en: aiiro
+  color:
+    rgb:
+      r: 22
+      g: 94
+      b: 131
+    hex: "#165e83"
+- name: 青藍
+  name_en: seiran
+  color:
+    rgb:
+      r: 39
+      g: 74
+      b: 120
+    hex: "#274a78"
+- name: 深縹
+  name_en: kokihanada
+  color:
+    rgb:
+      r: 42
+      g: 64
+      b: 115
+    hex: "#2a4073"
+- name: 紺色
+  name_en: koniro
+  color:
+    rgb:
+      r: 34
+      g: 58
+      b: 112
+    hex: "#223a70"
+- name: 紺青
+  name_en: konjou
+  color:
+    rgb:
+      r: 25
+      g: 47
+      b: 96
+    hex: "#192f60"
+- name: 留紺
+  name_en: tomekon
+  color:
+    rgb:
+      r: 28
+      g: 48
+      b: 92
+    hex: "#1c305c"
+- name: 濃藍
+  name_en: koiai
+  color:
+    rgb:
+      r: 15
+      g: 35
+      b: 80
+    hex: "#0f2350"
+- name: 鉄紺
+  name_en: tetsukon
+  color:
+    rgb:
+      r: 23
+      g: 24
+      b: 75
+    hex: "#17184b"
+- name: 漆黒
+  name_en: shikkoku
+  color:
+    rgb:
+      r: 13
+      g: 0
+      b: 21
+    hex: "#0d0015"
+- name: 淡藤色
+  name_en: awafujiiro
+  color:
+    rgb:
+      r: 187
+      g: 200
+      b: 230
+    hex: "#bbc8e6"
+- name: 藤色
+  name_en: fujiiro
+  color:
+    rgb:
+      r: 187
+      g: 188
+      b: 222
+    hex: "#bbbcde"
+- name: 紅掛空色
+  name_en: benikakesorairo
+  color:
+    rgb:
+      r: 132
+      g: 145
+      b: 195
+    hex: "#8491c3"
+- name: 紅碧
+  name_en: benimidori
+  color:
+    rgb:
+      r: 132
+      g: 145
+      b: 195
+    hex: "#8491c3"
+- name: 紺桔梗
+  name_en: konkikyou
+  color:
+    rgb:
+      r: 77
+      g: 90
+      b: 175
+    hex: "#4d5aaf"
+- name: 花色
+  name_en: hanairo
+  color:
+    rgb:
+      r: 77
+      g: 90
+      b: 175
+    hex: "#4d5aaf"
+- name: 紺藍
+  name_en: konai
+  color:
+    rgb:
+      r: 74
+      g: 72
+      b: 142
+    hex: "#4a488e"
+- name: 紅桔梗
+  name_en: benikikyou
+  color:
+    rgb:
+      r: 77
+      g: 67
+      b: 152
+    hex: "#4d4398"
+- name: 桔梗色
+  name_en: kikyouiro
+  color:
+    rgb:
+      r: 86
+      g: 84
+      b: 162
+    hex: "#5654a2"
+- name: 藤納戸
+  name_en: fujinando
+  color:
+    rgb:
+      r: 112
+      g: 108
+      b: 170
+    hex: "#706caa"
+- name: 紅掛花色
+  name_en: benikakehanairo
+  color:
+    rgb:
+      r: 104
+      g: 105
+      b: 155
+    hex: "#68699b"
+- name: 紫苑色
+  name_en: shioniro
+  color:
+    rgb:
+      r: 134
+      g: 123
+      b: 169
+    hex: "#867ba9"
+- name: 白藤色
+  name_en: shirafujiiro
+  color:
+    rgb:
+      r: 219
+      g: 208
+      b: 230
+    hex: "#dbd0e6"
+- name: 藤紫
+  name_en: fujimurasaki
+  color:
+    rgb:
+      r: 165
+      g: 154
+      b: 202
+    hex: "#a59aca"
+- name: 菫色
+  name_en: sumireiro
+  color:
+    rgb:
+      r: 112
+      g: 88
+      b: 163
+    hex: "#7058a3"
+- name: 青紫
+  name_en: aomurasaki
+  color:
+    rgb:
+      r: 103
+      g: 69
+      b: 152
+    hex: "#674598"
+- name: 菖蒲色
+  name_en: ayameiro
+  color:
+    rgb:
+      r: 204
+      g: 126
+      b: 177
+    hex: "#cc7eb1"
+- name: 竜胆色
+  name_en: rindouiro
+  color:
+    rgb:
+      r: 144
+      g: 121
+      b: 173
+    hex: "#9079ad"
+- name: 江戸紫
+  name_en: edomurasaki
+  color:
+    rgb:
+      r: 116
+      g: 83
+      b: 153
+    hex: "#745399"
+- name: 本紫
+  name_en: honmurasaki
+  color:
+    rgb:
+      r: 101
+      g: 49
+      b: 142
+    hex: "#65318e"
+- name: 葡萄色（ぶどういろ）
+  name_en: budouiro
+  color:
+    rgb:
+      r: 82
+      g: 47
+      b: 96
+    hex: "#522f60"
+- name: 深紫
+  name_en: fukamurasaki
+  color:
+    rgb:
+      r: 73
+      g: 55
+      b: 89
+    hex: "#493759"
+- name: 紫黒
+  name_en: shikoku
+  color:
+    rgb:
+      r: 46
+      g: 41
+      b: 48
+    hex: "#2e2930"
+- name: 紫
+  name_en: murasaki
+  color:
+    rgb:
+      r: 136
+      g: 72
+      b: 152
+    hex: "#884898"
+- name: 薄葡萄
+  name_en: usubudou
+  color:
+    rgb:
+      r: 192
+      g: 162
+      b: 199
+    hex: "#c0a2c7"
+- name: 紫紺
+  name_en: shikon
+  color:
+    rgb:
+      r: 70
+      g: 14
+      b: 68
+    hex: "#460e44"
+- name: 暗紅色
+  name_en: ankoushoku
+  color:
+    rgb:
+      r: 116
+      g: 50
+      b: 92
+    hex: "#74325c"
+- name: 桑の実色
+  name_en: kuwanomiiro
+  color:
+    rgb:
+      r: 85
+      g: 41
+      b: 91
+    hex: "#55295b"
+- name: 古代紫
+  name_en: kodaimurasaki
+  color:
+    rgb:
+      r: 137
+      g: 91
+      b: 138
+    hex: "#895b8a"
+- name: 茄子紺
+  name_en: nasukon
+  color:
+    rgb:
+      r: 130
+      g: 72
+      b: 128
+    hex: "#824880"
+- name: 二藍
+  name_en: futaai
+  color:
+    rgb:
+      r: 145
+      g: 92
+      b: 139
+    hex: "#915c8b"
+- name: 京紫
+  name_en: kyoumurasaki
+  color:
+    rgb:
+      r: 157
+      g: 91
+      b: 139
+    hex: "#9d5b8b"
+- name: 蒲葡
+  name_en: ebizome
+  color:
+    rgb:
+      r: 122
+      g: 65
+      b: 113
+    hex: "#7a4171"
+- name: 若紫
+  name_en: wakamurasaki
+  color:
+    rgb:
+      r: 188
+      g: 100
+      b: 164
+    hex: "#bc64a4"
+- name: 紅紫
+  name_en: benimurasaki
+  color:
+    rgb:
+      r: 180
+      g: 76
+      b: 151
+    hex: "#b44c97"
+- name: 梅紫
+  name_en: umemurasaki
+  color:
+    rgb:
+      r: 170
+      g: 76
+      b: 143
+    hex: "#aa4c8f"
+- name: 紅藤色
+  name_en: benifujiiro
+  color:
+    rgb:
+      r: 204
+      g: 166
+      b: 191
+    hex: "#cca6bf"
+- name: 浅紫
+  name_en: asamurasaki
+  color:
+    rgb:
+      r: 196
+      g: 163
+      b: 191
+    hex: "#c4a3bf"
+- name: 紫水晶
+  name_en: murasakisuishou
+  color:
+    rgb:
+      r: 231
+      g: 231
+      b: 235
+    hex: "#e7e7eb"
+- name: 薄梅鼠
+  name_en: usuumenezu
+  color:
+    rgb:
+      r: 220
+      g: 214
+      b: 217
+    hex: "#dcd6d9"
+- name: 暁鼠
+  name_en: akatsukinezu
+  color:
+    rgb:
+      r: 211
+      g: 207
+      b: 217
+    hex: "#d3cfd9"
+- name: 牡丹鼠
+  name_en: botannezu
+  color:
+    rgb:
+      r: 211
+      g: 204
+      b: 214
+    hex: "#d3ccd6"
+- name: 霞色
+  name_en: kasumiiro
+  color:
+    rgb:
+      r: 200
+      g: 194
+      b: 198
+    hex: "#c8c2c6"
+- name: 藤鼠
+  name_en: fujinezu
+  color:
+    rgb:
+      r: 166
+      g: 165
+      b: 196
+    hex: "#a6a5c4"
+- name: 半色
+  name_en: hashitairo
+  color:
+    rgb:
+      r: 166
+      g: 154
+      b: 189
+    hex: "#a69abd"
+- name: 薄色
+  name_en: usuiro
+  color:
+    rgb:
+      r: 168
+      g: 157
+      b: 172
+    hex: "#a89dac"
+- name: 薄鼠
+  name_en: usunezu
+  color:
+    rgb:
+      r: 151
+      g: 144
+      b: 164
+    hex: "#9790a4"
+- name: 鳩羽鼠
+  name_en: hatobanezumi
+  color:
+    rgb:
+      r: 158
+      g: 139
+      b: 142
+    hex: "#9e8b8e"
+- name: 鳩羽色
+  name_en: hatobairo
+  color:
+    rgb:
+      r: 149
+      g: 133
+      b: 156
+    hex: "#95859c"
+- name: 桔梗鼠
+  name_en: kikyounezu
+  color:
+    rgb:
+      r: 149
+      g: 148
+      b: 154
+    hex: "#95949a"
+- name: 紫鼠
+  name_en: murasakinezu
+  color:
+    rgb:
+      r: 113
+      g: 104
+      b: 108
+    hex: "#71686c"
+- name: 葡萄鼠
+  name_en: budounezumi
+  color:
+    rgb:
+      r: 112
+      g: 91
+      b: 103
+    hex: "#705b67"
+- name: 濃色
+  name_en: kokiiro
+  color:
+    rgb:
+      r: 99
+      g: 73
+      b: 80
+    hex: "#634950"
+- name: 紫鳶
+  name_en: murasakitobi
+  color:
+    rgb:
+      r: 95
+      g: 65
+      b: 75
+    hex: "#5f414b"
+- name: 濃鼠
+  name_en: koinezu
+  color:
+    rgb:
+      r: 79
+      g: 69
+      b: 92
+    hex: "#4f455c"
+- name: 藤煤竹
+  name_en: fujisusutake
+  color:
+    rgb:
+      r: 90
+      g: 83
+      b: 89
+    hex: "#5a5359"
+- name: 滅紫
+  name_en: keshimurasaki
+  color:
+    rgb:
+      r: 89
+      g: 66
+      b: 85
+    hex: "#594255"
+- name: 紅消鼠
+  name_en: benikeshinezumi
+  color:
+    rgb:
+      r: 82
+      g: 71
+      b: 72
+    hex: "#524748"
+- name: 似せ紫
+  name_en: nisemurasaki
+  color:
+    rgb:
+      r: 81
+      g: 55
+      b: 67
+    hex: "#513743"
+- name: 灰黄緑
+  name_en: haikimidori
+  color:
+    rgb:
+      r: 230
+      g: 234
+      b: 227
+    hex: "#e6eae3"
+- name: 蕎麦切色
+  name_en: sobakiriiro
+  color:
+    rgb:
+      r: 212
+      g: 220
+      b: 214
+    hex: "#d4dcd6"
+- name: 薄雲鼠
+  name_en: usukumonezu
+  color:
+    rgb:
+      r: 212
+      g: 220
+      b: 218
+    hex: "#d4dcda"
+- name: 枯野色
+  name_en: karenoiro
+  color:
+    rgb:
+      r: 211
+      g: 203
+      b: 198
+    hex: "#d3cbc6"
+- name: 潤色
+  name_en: urumiiro
+  color:
+    rgb:
+      r: 200
+      g: 194
+      b: 190
+    hex: "#c8c2be"
+- name: 利休白茶
+  name_en: rikyuushirocha
+  color:
+    rgb:
+      r: 179
+      g: 173
+      b: 160
+    hex: "#b3ada0"
+- name: 茶鼠
+  name_en: chanezumi
+  color:
+    rgb:
+      r: 169
+      g: 158
+      b: 147
+    hex: "#a99e93"
+- name: 胡桃染
+  name_en: kurumizome
+  color:
+    rgb:
+      r: 165
+      g: 143
+      b: 134
+    hex: "#a58f86"
+- name: 江戸鼠
+  name_en: edonezu
+  color:
+    rgb:
+      r: 146
+      g: 129
+      b: 120
+    hex: "#928178"
+- name: 煤色
+  name_en: susuiro
+  color:
+    rgb:
+      r: 136
+      g: 127
+      b: 122
+    hex: "#887f7a"
+- name: 丁子茶
+  name_en: choujicha
+  color:
+    rgb:
+      r: 180
+      g: 134
+      b: 107
+    hex: "#b4866b"
+- name: 柴染
+  name_en: fushizome
+  color:
+    rgb:
+      r: 178
+      g: 140
+      b: 110
+    hex: "#b28c6e"
+- name: 宗伝唐茶
+  name_en: soudenkaracha
+  color:
+    rgb:
+      r: 161
+      g: 109
+      b: 93
+    hex: "#a16d5d"
+- name: 砺茶
+  name_en: tonocha
+  color:
+    rgb:
+      r: 159
+      g: 111
+      b: 85
+    hex: "#9f6f55"
+- name: 煎茶色
+  name_en: senchairo
+  color:
+    rgb:
+      r: 140
+      g: 100
+      b: 80
+    hex: "#8c6450"
+- name: 銀煤竹
+  name_en: ginsusudake
+  color:
+    rgb:
+      r: 133
+      g: 104
+      b: 89
+    hex: "#856859"
+- name: 黄枯茶
+  name_en: kigaracha
+  color:
+    rgb:
+      r: 118
+      g: 92
+      b: 71
+    hex: "#765c47"
+- name: 煤竹色
+  name_en: susutakeiro
+  color:
+    rgb:
+      r: 111
+      g: 81
+      b: 76
+    hex: "#6f514c"
+- name: 焦茶
+  name_en: kogecha
+  color:
+    rgb:
+      r: 111
+      g: 75
+      b: 62
+    hex: "#6f4b3e"
+- name: 黒橡
+  name_en: kurotsurubami
+  color:
+    rgb:
+      r: 84
+      g: 74
+      b: 71
+    hex: "#544a47"
+- name: 憲法色
+  name_en: kenpouiro
+  color:
+    rgb:
+      r: 84
+      g: 63
+      b: 50
+    hex: "#543f32"
+- name: 涅色
+  name_en: kuriiro
+  color:
+    rgb:
+      r: 85
+      g: 71
+      b: 56
+    hex: "#554738"
+- name: 檳榔子染
+  name_en: binroujizome
+  color:
+    rgb:
+      r: 67
+      g: 61
+      b: 60
+    hex: "#433d3c"
+- name: 黒鳶
+  name_en: kurotobi
+  color:
+    rgb:
+      r: 67
+      g: 47
+      b: 47
+    hex: "#432f2f"
+- name: 赤墨
+  name_en: akasumi
+  color:
+    rgb:
+      r: 63
+      g: 49
+      b: 43
+    hex: "#3f312b"
+- name: 黒紅
+  name_en: kurobeni
+  color:
+    rgb:
+      r: 48
+      g: 40
+      b: 51
+    hex: "#302833"
+- name: 白
+  name_en: shiro
+  color:
+    rgb:
+      r: 255
+      g: 255
+      b: 255
+    hex: "#ffffff"
+- name: 胡粉色
+  name_en: gofuniro
+  color:
+    rgb:
+      r: 255
+      g: 255
+      b: 252
+    hex: "#fffffc"
+- name: 卯の花色
+  name_en: unohanairo
+  color:
+    rgb:
+      r: 247
+      g: 252
+      b: 254
+    hex: "#f7fcfe"
+- name: 白磁
+  name_en: hakuji
+  color:
+    rgb:
+      r: 248
+      g: 251
+      b: 248
+    hex: "#f8fbf8"
+- name: 生成り色
+  name_en: kinariiro
+  color:
+    rgb:
+      r: 251
+      g: 250
+      b: 245
+    hex: "#fbfaf5"
+- name: 乳白色
+  name_en: nyuuhakushoku
+  color:
+    rgb:
+      r: 243
+      g: 243
+      b: 243
+    hex: "#f3f3f3"
+- name: 白練
+  name_en: shironeri
+  color:
+    rgb:
+      r: 243
+      g: 243
+      b: 242
+    hex: "#f3f3f2"
+- name: 素色
+  name_en: soshoku
+  color:
+    rgb:
+      r: 234
+      g: 229
+      b: 227
+    hex: "#eae5e3"
+- name: 白梅鼠
+  name_en: shiraumenezu
+  color:
+    rgb:
+      r: 229
+      g: 228
+      b: 230
+    hex: "#e5e4e6"
+- name: 白鼠
+  name_en: shironezu
+  color:
+    rgb:
+      r: 220
+      g: 221
+      b: 221
+    hex: "#dcdddd"
+- name: 絹鼠
+  name_en: kinunezu
+  color:
+    rgb:
+      r: 221
+      g: 220
+      b: 214
+    hex: "#dddcd6"
+- name: 灰青
+  name_en: haiao
+  color:
+    rgb:
+      r: 192
+      g: 198
+      b: 201
+    hex: "#c0c6c9"
+- name: 銀鼠
+  name_en: ginnezu
+  color:
+    rgb:
+      r: 175
+      g: 175
+      b: 176
+    hex: "#afafb0"
+- name: 薄鈍
+  name_en: usunibi
+  color:
+    rgb:
+      r: 173
+      g: 173
+      b: 173
+    hex: "#adadad"
+- name: 薄墨色
+  name_en: usuzumiiro
+  color:
+    rgb:
+      r: 163
+      g: 163
+      b: 162
+    hex: "#a3a3a2"
+- name: 錫色
+  name_en: suzuiro
+  color:
+    rgb:
+      r: 158
+      g: 161
+      b: 163
+    hex: "#9ea1a3"
+- name: 素鼠
+  name_en: sunezumi
+  color:
+    rgb:
+      r: 159
+      g: 160
+      b: 160
+    hex: "#9fa0a0"
+- name: 鼠色
+  name_en: nezumiiro
+  color:
+    rgb:
+      r: 148
+      g: 148
+      b: 149
+    hex: "#949495"
+- name: 源氏鼠
+  name_en: genjinezu
+  color:
+    rgb:
+      r: 136
+      g: 128
+      b: 132
+    hex: "#888084"
+- name: 灰色
+  name_en: haiiro
+  color:
+    rgb:
+      r: 125
+      g: 125
+      b: 125
+    hex: "#7d7d7d"
+- name: 鉛色
+  name_en: namariiro
+  color:
+    rgb:
+      r: 123
+      g: 124
+      b: 125
+    hex: "#7b7c7d"
+- name: 鈍色
+  name_en: nibiiro
+  color:
+    rgb:
+      r: 114
+      g: 113
+      b: 113
+    hex: "#727171"
+- name: 墨
+  name_en: sumi
+  color:
+    rgb:
+      r: 89
+      g: 88
+      b: 87
+    hex: "#595857"
+- name: 丼鼠
+  name_en: dobunezumi
+  color:
+    rgb:
+      r: 89
+      g: 84
+      b: 85
+    hex: "#595455"
+- name: 消炭色
+  name_en: keshizumiiro
+  color:
+    rgb:
+      r: 82
+      g: 78
+      b: 77
+    hex: "#524e4d"
+- name: 藍墨茶
+  name_en: aisumicha
+  color:
+    rgb:
+      r: 71
+      g: 74
+      b: 77
+    hex: "#474a4d"
+- name: 羊羹色
+  name_en: youkaniro
+  color:
+    rgb:
+      r: 56
+      g: 60
+      b: 60
+    hex: "#383c3c"
+- name: 蝋色
+  name_en: rouiro
+  color:
+    rgb:
+      r: 43
+      g: 43
+      b: 43
+    hex: "#2b2b2b"
+- name: 黒
+  name_en: kuro
+  color:
+    rgb:
+      r: 43
+      g: 43
+      b: 43
+    hex: "#2b2b2b"
+- name: 烏羽色
+  name_en: karasubairo
+  color:
+    rgb:
+      r: 24
+      g: 6
+      b: 20
+    hex: "#180614"
+- name: 鉄黒
+  name_en: tetsuguro
+  color:
+    rgb:
+      r: 40
+      g: 26
+      b: 20
+    hex: "#281a14"
+- name: 濡羽色
+  name_en: nurebairo
+  color:
+    rgb:
+      r: 0
+      g: 11
+      b: 0
+    hex: "#000b00"
+- name: 黒檀
+  name_en: kokutan
+  color:
+    rgb:
+      r: 37
+      g: 13
+      b: 0
+    hex: "#250d00"
+- name: 憲法黒茶
+  name_en: kenpoukurocha
+  color:
+    rgb:
+      r: 36
+      g: 26
+      b: 8
+    hex: "#241a08"
+- name: 暗黒色
+  name_en: ankokushoku
+  color:
+    rgb:
+      r: 22
+      g: 22
+      b: 14
+    hex: "#16160e"
