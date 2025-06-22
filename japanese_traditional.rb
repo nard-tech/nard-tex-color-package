@@ -74,16 +74,18 @@ class JapaneseTraditionalColor
 
       name = Regexp.last_match(1)
       name_en = Regexp.last_match(2)
+
       r = Regexp.last_match(3).to_i
       g = Regexp.last_match(4).to_i
       b = Regexp.last_match(5).to_i
+
       rgb_01 = Regexp.last_match(6)
 
-      new(name, name_en, Color.new(r, g, b), rgb_01)
+      new(name, name_en, Color.new(r, g, b), rgb_01:)
     end
   end
 
-  def initialize(name, name_en, color, rgb_01)
+  def initialize(name, name_en, color, rgb_01: nil)
     @name = name
     @name_en = name_en
     @color = color
@@ -105,7 +107,7 @@ class JapaneseTraditionalColor
   end
 
   def valid_rgb_01?
-    rgb_01.split(/,/).map(&:to_f) == color.rgb_01_as_array(1)
+    rgb_01 && rgb_01.split(/,/).map(&:to_f) == color.rgb_01_as_array(1)
   end
 
   private
