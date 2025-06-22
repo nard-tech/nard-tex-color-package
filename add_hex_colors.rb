@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'yaml'
+
 class Color
   def initialize(r, g, b)
     @r = r
@@ -17,6 +19,11 @@ class Color
     to_a.map(&:to_s).join(', ')
   end
 
+  def to_h(string_key: false)
+    h = { rgb: rgb_h(string_key:), hex: }
+    string_key ? h.transform_keys(&:to_s) : h
+  end
+
   def hex
     '#' + to_a.map { |color| color.to_i.to_s(16).rjust(2, '0') }.join
   end
@@ -30,6 +37,11 @@ class Color
   end
 
   private
+
+  def rgb_h(string_key: false)
+    h = { r:, g:, b: }
+    string_key ? h.transform_keys(&:to_s) : h
+  end
 
   def r_01(digit = 3)
     color_01(r, digit)
@@ -60,31 +72,36 @@ class JapaneseTraditionalColor
     def parse(content)
       PATTERN =~ content
 
-      color_name = Regexp.last_match(1)
-      color_name_en = Regexp.last_match(2)
+      name = Regexp.last_match(1)
+      name_en = Regexp.last_match(2)
       r = Regexp.last_match(3).to_i
       g = Regexp.last_match(4).to_i
       b = Regexp.last_match(5).to_i
       rgb_01 = Regexp.last_match(6)
 
-      new(color_name, color_name_en, Color.new(r, g, b), rgb_01)
+      new(name, name_en, Color.new(r, g, b), rgb_01)
     end
   end
 
-  def initialize(color_name, color_name_en, color, rgb_01)
-    @color_name = color_name
-    @color_name_en = color_name_en
+  def initialize(name, name_en, color, rgb_01)
+    @name = name
+    @name_en = name_en
     @color = color
     @rgb_01 = rgb_01
   end
 
-  attr_reader :color_name, :color_name_en, :color, :rgb_01
+  attr_reader :name, :name_en, :color, :rgb_01
 
   def to_s
     <<~TEX
-      % #{color_name} #{color_name_en} #{color.hex}, (r,g,b)=(#{color})
-      \\definecolor{#{color_name_en}}{rgb}{#{color.rgb_01}}
+      % #{name} #{name_en} #{color.hex}, (r,g,b)=(#{color})
+      \\definecolor{#{name_en}}{rgb}{#{color.rgb_01}}
     TEX
+  end
+
+  def to_h(string_key: false)
+    h = { name:, name_en:, color: color.to_h(string_key:) }
+    string_key ? h.transform_keys(&:to_s) : h
   end
 
   def valid_rgb_01?
@@ -107,6 +124,10 @@ contents = contents.map { |content| JapaneseTraditionalColor.parse(content) }
 raise if contents.all?(&:valid_rgb_01?)
 
 # contents.each { puts _1.to_s }
+
+File.open('japanese_traditional.yml', 'w:utf-8') do |f|
+  f.write YAML.dump(contents.map { |content| content.to_h(string_key: true) })
+end
 
 File.open('japanese_traditional.sty', 'w:utf-8') do |f|
   f.write(contents.map(&:to_s).join("\n"))
