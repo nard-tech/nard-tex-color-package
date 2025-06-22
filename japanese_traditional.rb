@@ -83,6 +83,19 @@ class JapaneseTraditionalColor
 
       new(name, name_en, Color.new(r, g, b), rgb_01:)
     end
+
+    def load(h)
+      name = h['name']
+      name_en = h['name_en']
+
+      r = h['color']['rgb']['r']
+      g = h['color']['rgb']['g']
+      b = h['color']['rgb']['b']
+
+      note = h['note']
+
+      new(name, name_en, Color.new(r, g, b), note:)
+    end
   end
 
   def initialize(name, name_en, color, rgb_01: nil, note: nil)
