@@ -391,7 +391,7 @@
       g: 64
       b: 71
     hex: "#b94047"
-- name: 朱・緋
+- name: 朱
   name_en: ake
   color:
     rgb:
@@ -399,6 +399,7 @@
       g: 38
       b: 54
     hex: "#ba2636"
+  note: 「緋」ともいう
 - name: 茜色
   name_en: akaneiro
   color:
@@ -1183,7 +1184,7 @@
       g: 44
       b: 47
     hex: "#6c2c2f"
-- name: 葡萄色（えびいろ）
+- name: 葡萄色
   name_en: ebiiro
   color:
     rgb:
@@ -1191,6 +1192,7 @@
       g: 1
       b: 37
     hex: "#640125"
+  note: えびいろ（「ぶどういろ」とは異なる）
 - name: 萱草色
   name_en: kanzouiro
   color:
@@ -1383,14 +1385,15 @@
       g: 236
       b: 71
     hex: "#ffec47"
-- name: 菜の花色2（→彩度変更）
-  name_en: nanohanairotwo
+- name: 菜の花色2
+  name_en: nanohanairoii
   color:
     rgb:
       r: 255
       g: 242
       b: 127
     hex: "#fff27f"
+  note: 彩度を変更している
 - name: 黄檗色
   name_en: kihadairo
   color:
@@ -2911,7 +2914,7 @@
       g: 49
       b: 142
     hex: "#65318e"
-- name: 葡萄色（ぶどういろ）
+- name: 葡萄色
   name_en: budouiro
   color:
     rgb:
@@ -2919,6 +2922,7 @@
       g: 47
       b: 96
     hex: "#522f60"
+  note: ぶどういろ（「えびいろ」とは異なる）
 - name: 深紫
   name_en: fukamurasaki
   color:
