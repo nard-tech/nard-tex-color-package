@@ -110,10 +110,14 @@ class JapaneseTraditionalColor
   attr_reader :name, :name_en, :color, :rgb_01, :note
 
   def to_s
-    <<~TEX
-      % #{name} #{name_en} #{color.hex}, (r,g,b)=(#{color})
-      \\definecolor{#{name_en}}{rgb}{#{color.rgb_01}}
-    TEX
+    comment = "% #{name} #{name_en} #{color.hex}, (r,g,b)=(#{color})"
+    definecolor = "\\definecolor{#{name_en}}{rgb}{#{color.rgb_01}}"
+
+    if note
+      [comment, "% NOTE: #{note}", definecolor].join("\n") + "\n"
+    else
+      [comment, definecolor].join("\n") + "\n"
+    end
   end
 
   def to_h(string_key: false)
