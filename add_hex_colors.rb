@@ -54,7 +54,7 @@ class Color
 end
 
 class JapaneseTraditionalColor
-  PATTERN = /\A% ([\p{Han}\p{hiragana}（）→・\d]+) (\w+) \#[0-9a-f]{6}\, \(r,g,b\)=\((\d+), (\d+), (\d+)\)\n\\definecolor\{\w+\}\{rgb\}\{(\d(?:\.\d+)?) , (\d(?:\.\d+)?) , (\d(?:\.\d+)?)\}\n?\z/
+  PATTERN = /\A% ([\p{Han}\p{hiragana}（）→・\d]+) (\w+) \#[0-9a-f]{6}\, \(r,g,b\)=\((\d+), (\d+), (\d+)\)\n\\definecolor\{\w+\}\{rgb\}\{(\d(?:\.\d{,3})?), (\d(?:\.\d{,3})?), (\d(?:\.\d{,3})?)\}\n?\z/
 
   class << self
     def parse(content)
