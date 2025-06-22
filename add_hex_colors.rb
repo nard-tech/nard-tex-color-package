@@ -60,30 +60,30 @@ class JapaneseTraditionalColor
     def parse(content)
       PATTERN =~ content
 
-      color_name = Regexp.last_match(1)
-      color_name_en = Regexp.last_match(2)
+      name = Regexp.last_match(1)
+      name_en = Regexp.last_match(2)
       r = Regexp.last_match(3).to_i
       g = Regexp.last_match(4).to_i
       b = Regexp.last_match(5).to_i
       rgb_01 = Regexp.last_match(6)
 
-      new(color_name, color_name_en, Color.new(r, g, b), rgb_01)
+      new(name, name_en, Color.new(r, g, b), rgb_01)
     end
   end
 
-  def initialize(color_name, color_name_en, color, rgb_01)
-    @color_name = color_name
-    @color_name_en = color_name_en
+  def initialize(name, name_en, color, rgb_01)
+    @name = name
+    @name_en = name_en
     @color = color
     @rgb_01 = rgb_01
   end
 
-  attr_reader :color_name, :color_name_en, :color, :rgb_01
+  attr_reader :name, :name_en, :color, :rgb_01
 
   def to_s
     <<~TEX
-      % #{color_name} #{color_name_en} #{color.hex}, (r,g,b)=(#{color})
-      \\definecolor{#{color_name_en}}{rgb}{#{color.rgb_01}}
+      % #{name} #{name_en} #{color.hex}, (r,g,b)=(#{color})
+      \\definecolor{#{name_en}}{rgb}{#{color.rgb_01}}
     TEX
   end
 
