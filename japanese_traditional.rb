@@ -127,3 +127,11 @@ style_file_contents = ERB.new(File.open('japanese_traditional.sty.erb', 'r:utf-8
 File.open('japanese_traditional.sty', 'w:utf-8') do |f|
   f.write(style_file_contents.gsub(/\n+\Z/, "\n"))
 end
+
+readme_file_contents = ERB.new(File.open('README.tex.erb', 'r:utf-8').read,
+                               trim_mode: '-')
+                          .result_with_hash(japanese_traditional_colors:)
+
+File.open('README.tex', 'w:utf-8') do |f|
+  f.write(readme_file_contents.gsub(/\n+\Z/, "\n"))
+end
