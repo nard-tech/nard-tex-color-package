@@ -95,9 +95,9 @@ class JapaneseTraditionalColor
     definecolor = "\\definecolor{#{name_en}}{rgb}{#{color.rgb_01}}"
 
     if note
-      [comment, "% NOTE: #{note}", definecolor].join("\n") + "\n"
+      "#{[comment, "% NOTE: #{note}", definecolor].join("\n")}\n"
     else
-      [comment, definecolor].join("\n") + "\n"
+      "#{[comment, definecolor].join("\n")}\n"
     end
   end
 
@@ -108,7 +108,7 @@ class JapaneseTraditionalColor
 end
 
 yaml_string = File.open('japanese_traditional.yml', 'r:utf-8')
-               .read
+                  .read
 contents = YAML.load(yaml_string)
 japanese_traditional_colors = contents.map { |h| JapaneseTraditionalColor.load(h) }
 
