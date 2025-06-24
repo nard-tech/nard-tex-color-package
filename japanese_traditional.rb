@@ -25,8 +25,9 @@ class Color
     string_key ? h.transform_keys(&:to_s) : h
   end
 
-  def hex
-    '#' + to_a.map { |color| color.to_i.to_s(16).rjust(2, '0') }.join
+  def hex(with_prefix: true)
+    base = to_a.map { |color| color.to_i.to_s(16).rjust(2, '0') }.join
+    with_prefix ? "##{base}" : base
   end
 
   def rgb_01(digit = 3)
