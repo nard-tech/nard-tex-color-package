@@ -105,6 +105,10 @@ class JapaneseTraditionalColor
     h = { name:, name_en:, color: color.to_h(string_key:) }
     string_key ? h.transform_keys(&:to_s) : h
   end
+
+  def has_note?
+    note
+  end
 end
 
 yaml_string = File.open('japanese_traditional.yml', 'r:utf-8')
