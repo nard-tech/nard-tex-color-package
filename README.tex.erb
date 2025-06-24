@@ -64,9 +64,9 @@
       <%- if japanese_traditional_color.has_note? -%>
         \footnote{<%= japanese_traditional_color.note %>}
       <%- end -%>
-        & {\footnotesize \verb|<%= japanese_traditional_color.name %>|}
-        & {\footnotesize <%= japanese_traditional_color.name_hiragana %>}
-        & {\footnotesize <%= japanese_traditional_color.name_en %>}
+        & {\scriptsize \verb|<%= japanese_traditional_color.name %>|}
+        & {\scriptsize <%= japanese_traditional_color.name_hiragana %>}
+        & {\scriptsize <%= japanese_traditional_color.name_en %>}
         & {\scriptsize \HexValue{<%= japanese_traditional_color.color.hex(with_prefix: false) %>}}
         & {\scriptsize \RGBValue{<%= japanese_traditional_color.color.r %>}{<%= japanese_traditional_color.color.g %>}{<%= japanese_traditional_color.color.b %>}} \\
     <%- end -%>
