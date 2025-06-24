@@ -2002,6 +2002,7 @@
       g: 74
       b: 65
     hex: "#494a41"
+  note: 「仙斎茶」とは異なる
 - name: iwaicha
   name_ja: 岩井茶
   name_en: Iwai-cha
@@ -2022,6 +2023,7 @@
       g: 75
       b: 66
     hex: "#474b42"
+  note: 「千歳茶」とは異なる
 - name: kuromidori
   name_ja: 黒緑
   name_en: Kuro-midori
