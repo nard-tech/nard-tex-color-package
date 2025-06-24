@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'yaml'
+require 'erb'
 
 class Color
   def initialize(r, g, b)
@@ -118,6 +119,10 @@ japanese_traditional_colors = contents.map { |h| JapaneseTraditionalColor.load(h
 
 # japanese_traditional_colors.each { puts _1.to_s }
 
+style_file_contents = ERB.new(File.open('japanese_traditional.sty.erb', 'r:utf-8').read,
+                              trim_mode: '-')
+                         .result_with_hash(japanese_traditional_colors:)
+
 File.open('japanese_traditional.sty', 'w:utf-8') do |f|
-  f.write(japanese_traditional_colors.map(&:to_s).join("\n"))
+  f.write(style_file_contents.gsub(/\n+\Z/, "\n"))
 end
