@@ -71,7 +71,7 @@ class JapaneseTraditionalColor
   class << self
     def load(h)
       name = h['name']
-      name_en = h['name_en']
+      name_ja = h['name_ja']
 
       r = h['color']['rgb']['r']
       g = h['color']['rgb']['g']
@@ -79,22 +79,23 @@ class JapaneseTraditionalColor
 
       note = h['note']
 
-      new(name, name_en, Color.new(r, g, b), note:)
+      new(name, name_ja, Color.new(r, g, b), note:)
     end
   end
 
-  def initialize(name, name_en, color, note: nil)
+  def initialize(name, name_ja, color, note: nil)
     @name = name
-    @name_en = name_en
+    @name_ja = name_ja
+
     @color = color
     @note = note
   end
 
-  attr_reader :name, :name_en, :color, :note
+  attr_reader :name, :name_ja, :color, :note
 
   def to_s
-    comment = "% #{name} #{name_en} #{color.hex}, (r,g,b)=(#{color})"
-    definecolor = "\\definecolor{#{name_en}}{rgb}{#{color.rgb_01}}"
+    comment = "% #{name_ja} #{name} #{color.hex}, (r,g,b)=(#{color})"
+    definecolor = "\\definecolor{#{name}}{rgb}{#{color.rgb_01}}"
 
     if note
       "#{[comment, "% NOTE: #{note}", definecolor].join("\n")}\n"
@@ -104,7 +105,7 @@ class JapaneseTraditionalColor
   end
 
   def to_h(string_key: false)
-    h = { name:, name_en:, color: color.to_h(string_key:) }
+    h = { name:, name_ja:, color: color.to_h(string_key:) }
     string_key ? h.transform_keys(&:to_s) : h
   end
 

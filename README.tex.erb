@@ -60,11 +60,11 @@
 
   \begin{longtable}{llll}
     <%- japanese_traditional_colors.each do |japanese_traditional_color| -%>
-      \ColorName{<%= japanese_traditional_color.name_en %>}{<%= japanese_traditional_color.name %>}
+      \ColorName{<%= japanese_traditional_color.name %>}{<%= japanese_traditional_color.name_ja %>}
       <%- if japanese_traditional_color.has_note? -%>
         \footnote{<%= japanese_traditional_color.note %>}
       <%- end -%>
-        & {\footnotesize \verb|<%= japanese_traditional_color.name_en %>|}
+        & {\footnotesize \verb|<%= japanese_traditional_color.name %>|}
         & {\scriptsize \HexValue{<%= japanese_traditional_color.color.hex(with_prefix: false) %>}}
         & {\scriptsize \RGBValue{<%= japanese_traditional_color.color.r %>}{<%= japanese_traditional_color.color.g %>}{<%= japanese_traditional_color.color.b %>}} \\
     <%- end -%>
