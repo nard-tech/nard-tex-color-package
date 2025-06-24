@@ -25,8 +25,9 @@ class Color
     string_key ? h.transform_keys(&:to_s) : h
   end
 
-  def hex
-    '#' + to_a.map { |color| color.to_i.to_s(16).rjust(2, '0') }.join
+  def hex(with_prefix: true)
+    base = to_a.map { |color| color.to_i.to_s(16).rjust(2, '0') }.join
+    with_prefix ? "##{base}" : base
   end
 
   def rgb_01(digit = 3)
@@ -125,4 +126,12 @@ style_file_contents = ERB.new(File.open('japanese_traditional.sty.erb', 'r:utf-8
 
 File.open('japanese_traditional.sty', 'w:utf-8') do |f|
   f.write(style_file_contents.gsub(/\n+\Z/, "\n"))
+end
+
+readme_file_contents = ERB.new(File.open('README.tex.erb', 'r:utf-8').read,
+                               trim_mode: '-')
+                          .result_with_hash(japanese_traditional_colors:)
+
+File.open('README.tex', 'w:utf-8') do |f|
+  f.write(readme_file_contents.gsub(/\n+\Z/, "\n"))
 end

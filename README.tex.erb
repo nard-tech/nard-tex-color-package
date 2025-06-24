@@ -1,0 +1,72 @@
+\documentclass[oneside,10pt,a4paper]{jsarticle}
+
+\usepackage[dvips]{graphicx}
+\usepackage[dvips]{graphicx,color}
+
+\usepackage{longtable}
+
+\usepackage{color_commands}
+\usepackage{japanese_traditional}
+
+\title{nard-tex-color-package}
+\author{Fujita Shu}
+
+\begin{document}
+  \maketitle
+
+  \section{color\_commands}
+
+  \verb|color_commands| パッケージを読み込むと、以下のような色に関するコマンドを使うことができる。
+
+  \begin{itemize}
+    \item \verb|\ColorName{色名 (TeX の定義)}{色名（表示名）}|
+      \begin{quote}
+        \textgt{例}
+        \begin{itemize}
+          \item \verb|\ColorName{red}{赤色}| - \ColorName{red}{赤色}
+          \item \verb|\ColorName{green}{緑色}| - \ColorName{green}{緑色}
+          \item \verb|\ColorName{blue}{青色}| - \ColorName{blue}{青色}
+        \end{itemize}
+      \end{quote}
+    \item \verb|\RGBValue{R}{G}{B}|
+      \begin{quote}
+        \textgt{例}
+        \begin{itemize}
+          \item \verb|\RGBValue{3}{193}{61}| - \RGBValue{3}{193}{61}
+        \end{itemize}
+      \end{quote}
+    \item \verb|\CMYKValue{C}{M}{Y}{K}|
+      \begin{quote}
+        \textgt{例}
+        \begin{itemize}
+          \item \verb|\CMYKValue{100}{0}{100}{49}| - \CMYKValue{100}{0}{100}{49}
+        \end{itemize}
+      \end{quote}
+    \item \verb|\HexValue{C}{M}{Y}{K}|
+      \begin{quote}
+        \textgt{例}
+        \begin{itemize}
+          \item \verb|\HexValue{ff7e1c}| - \HexValue{ff7e1c}
+        \end{itemize}
+      \end{quote}
+    %
+  \end{itemize}
+
+  \newpage
+
+  \section{japanese\_traditional}
+
+  \verb|japanese_traditional| パッケージを読み込むと、以下のような日本の伝統色の色名を定義することができる。
+
+  \begin{longtable}{llll}
+    <%- japanese_traditional_colors.each do |japanese_traditional_color| -%>
+      \ColorName{<%= japanese_traditional_color.name_en %>}{<%= japanese_traditional_color.name %>}
+      <%- if japanese_traditional_color.has_note? -%>
+        \footnote{<%= japanese_traditional_color.note %>}
+      <%- end -%>
+        & {\footnotesize \verb|<%= japanese_traditional_color.name_en %>|}
+        & {\scriptsize \HexValue{<%= japanese_traditional_color.color.hex(with_prefix: false) %>}}
+        & {\scriptsize \RGBValue{<%= japanese_traditional_color.color.r %>}{<%= japanese_traditional_color.color.g %>}{<%= japanese_traditional_color.color.b %>}} \\
+    <%- end -%>
+  \end{longtable}
+\end{document}
