@@ -1,5 +1,5 @@
 <%- japanese_traditional_colors.each do |japanese_traditional_color| -%>
-% <%= japanese_traditional_color.name_ja %> <%= japanese_traditional_color.name %> <%= japanese_traditional_color.color.hex %>, (r,g,b)=(<%= japanese_traditional_color.color.to_s %>)
+% <%= japanese_traditional_color.name_ja %> <%= japanese_traditional_color.name %>（<%= japanese_traditional_color.name_hiragana %>, <%= japanese_traditional_color.name_en %>） <%= japanese_traditional_color.color.hex %>, (r,g,b)=(<%= japanese_traditional_color.color.to_s %>)
 <%- if japanese_traditional_color.has_note? -%>
 % NOTE: <%= japanese_traditional_color.note %>
 <%- end -%>

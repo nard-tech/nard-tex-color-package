@@ -58,13 +58,15 @@
 
   \verb|japanese_traditional| パッケージを読み込むと、以下のような日本の伝統色の色名を定義することができる。
 
-  \begin{longtable}{llll}
+  \begin{longtable}{llllll}
     <%- japanese_traditional_colors.each do |japanese_traditional_color| -%>
       \ColorName{<%= japanese_traditional_color.name %>}{<%= japanese_traditional_color.name_ja %>}
       <%- if japanese_traditional_color.has_note? -%>
         \footnote{<%= japanese_traditional_color.note %>}
       <%- end -%>
         & {\footnotesize \verb|<%= japanese_traditional_color.name %>|}
+        & {\footnotesize <%= japanese_traditional_color.name_hiragana %>}
+        & {\footnotesize <%= japanese_traditional_color.name_en %>}
         & {\scriptsize \HexValue{<%= japanese_traditional_color.color.hex(with_prefix: false) %>}}
         & {\scriptsize \RGBValue{<%= japanese_traditional_color.color.r %>}{<%= japanese_traditional_color.color.g %>}{<%= japanese_traditional_color.color.b %>}} \\
     <%- end -%>
