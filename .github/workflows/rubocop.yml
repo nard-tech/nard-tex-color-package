@@ -1,0 +1,29 @@
+name: RuboCop
+
+on:
+  push:
+    paths:
+      - '**/*.rb'
+      - '.github/workflows/rubocop.yml'
+  pull_request:
+    paths:
+      - '**/*.rb'
+      - '.github/workflows/rubocop.yml'
+
+jobs:
+  rubocop:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Ruby をセットアップ
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: RuboCop を実行
+        run: |
+          bundle install --jobs 4 --retry 3
+          bundle exec rubocop
